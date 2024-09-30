@@ -7,33 +7,21 @@ let ChatID =''; //可以为空，或者@userinfobot中获取，/start
 let TG = 0; //小白勿动， 开发者专用，1 为推送所有的访问信息，0 为不推送订阅转换后端的访问信息与异常访问
 let FileName = 'CF-Workers-SUB';
 let SUBUpdateTime = 6; //自定义订阅更新时间，单位小时
+let total = 99;//TB
+let timestamp = 4102329600000;//2099-12-31
+
+let cacheTTL = 24 ;//小时，缓存时长
 
 //节点链接 + 订阅链接
 let MainData = `
-https://vps.3217000.xyz/jgdong1
-vless://d239f27d-6f3f-4633-fcc5-d4105b703df0@ky40.eghrr656.click:443?encryption=none&security=tls&type=ws&path=%2Fky40.eghrr656#ky40
-vless://1e69d68c-b163-414c-fb85-f7d05dc953f1@ky11.mwedw51.xyz:443?encryption=none&security=tls&type=ws&path=%2Fky11.mwedw51#ky11
-vless://9ef72714-121e-47c4-a94b-487b65a2a005@ky01.fjsedf6523.xyz:443?encryption=none&security=tls&type=ws&path=%2Fky01.fjsedf6523#ky01
-vless://5bf6ca4d-786c-4dc2-8f5f-0ea46a6ffbf4@ky12.nefe512.xyz:443?encryption=none&security=tls&type=ws&path=%2Fky12.nefe512#ky12
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIiIsDQogICJhZGQiOiAiMjMuMTY2LjE2OC45MyIsDQogICJwb3J0IjogIjIxMDYyIiwNCiAgImlkIjogIjI5NzUxOTRkLTNkY2ItNGIxOC1iYTZkLTViYTVjOWRkM2M4OSIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiLyIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==
-vless://6a768550-3d75-4f87-c61f-843b6415169d@ky41.rgrgjk54643.xyz:443?encryption=none&security=tls&type=ws&path=%2Fky41.rgrgjk54643#ky41
-vless://3731994f-a362-428f-8869-a7d052264fbe@ky08.sgrg5434.xyz:443?encryption=none&security=tls&type=ws&path=%2Fky08.sgrg5434#ky08
-vless://a904c7fd-a1cd-4f4a-99e4-166265563951@ky06.ysld6312.xyz:443?encryption=none&security=tls&type=ws&path=%2Fky06.ysld6312#ky06
-vless://29d7e10b-82a0-4425-bf5f-799deab5f204@45.147.201.45:10000?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.speedtest.net&fp=random&pbk=lw9C9lZKKC8pfwR_jOxYDpKTD54s0Ovffz3lVH3GuHU&sid=249e&spx=%2F&type=tcp&headerType=none#y2zow7qn
-vless://29d7e10b-82a0-4425-bf5f-799deab5f204@ru.a-dns.eu.org:10000?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.speedtest.net&fp=random&pbk=lw9C9lZKKC8pfwR_jOxYDpKTD54s0Ovffz3lVH3GuHU&sid=249e&spx=%2F&type=tcp&headerType=none#%E8%8E%AB%E6%96%AF%E7%A7%91300Mbps%40%E6%97%A0%E9%99%90%E6%B5%81%E9%87%8F
-vless://a4ceb71e-3eef-474c-f467-d09b69327e40@urhsxfsf.tkpretty.com:59879?encryption=none&security=tls&type=ws&path=%2Fi7e5urthd
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@195.245.221.123:2053?encryption=none&security=tls&sni=edgood.889876.xyz&fp=ios&type=ws&host=edgood.889876.xyz&path=%2F%3Fed%3D2048#k361-clone
-vless://d958eee1-fa7c-4780-97b4-673079733a1c@kjhdfiuydff.tkpretty.com:45575?encryption=none&security=tls&type=ws&path=%2F9875e6rthyg
-vless://9faa596b-7762-424d-bdc1-dbdb1063a940@fyfdrsi.tkpretty.com:42492?encryption=none&security=tls&type=ws&path=%2F34y5gwersfdv
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@172.64.231.155:2053?encryption=none&security=tls&sni=edgood.889876.xyz&fp=ios&type=ws&host=edgood.889876.xyz&path=%2F%3Fed%3D2048#Aocs-US
-
+vless://b7a392e2-4ef0-4496-90bc-1c37bb234904@cf.090227.xyz:443?encryption=none&security=tls&sni=edgetunnel-2z2.pages.dev&fp=random&type=ws&host=edgetunnel-2z2.pages.dev&path=%2F%3Fed%3D2048#%E5%8A%A0%E5%85%A5%E6%88%91%E7%9A%84%E9%A2%91%E9%81%93t.me%2FCMLiussss%E8%A7%A3%E9%94%81%E6%9B%B4%E5%A4%9A%E4%BC%98%E9%80%89%E8%8A%82%E7%82%B9
+https://sub.xf.free.hr/auto
 `
 
-//请将机场订阅链接填入上方
-let urls = [];// https://subs.zeabur.app/clash , https://neko-warp.nloli.xyz/neko_warp.yaml
-
-let subconverter = "apiurl.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
+let urls = [];
+let subconverter = "SUBAPI.fxxk.dedyn.io"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
 let subconfig = "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_MultiCountry.ini"; //订阅配置文件
+let subProtocol = 'https';
 
 export default {
 	async fetch (request,env) {
@@ -46,173 +34,260 @@ export default {
 		ChatID = env.TGID || ChatID; 
 		TG =  env.TG || TG; 
 		subconverter = env.SUBAPI || subconverter;
+		if( subconverter.includes("http://") ){
+			subconverter = subconverter.split("//")[1];
+			subProtocol = 'http';
+		} else {
+			subconverter = subconverter.split("//")[1] || subconverter;
+		}
 		subconfig = env.SUBCONFIG || subconfig;
 		FileName = env.SUBNAME || FileName;
 		MainData = env.LINK || MainData;
 		if(env.LINKSUB) urls = await ADD(env.LINKSUB);
 
-		let links = await ADD(MainData + '\n' + urls.join('\n'));
-		let link = "";
-		let linksub = "";
-		
-		for (let x of links) {
+		const currentDate = new Date();
+		currentDate.setHours(0, 0, 0, 0); 
+		const timeTemp = Math.ceil(currentDate.getTime() / 1000);
+		const fakeToken = await MD5MD5(`${mytoken}${timeTemp}`);
+		//console.log(`${fakeUserID}\n${fakeHostName}`); // 打印fakeID
+
+		let UD = Math.floor(((timestamp - Date.now())/timestamp * total * 1099511627776 )/2);
+		total = total * 1099511627776 ;
+		let expire= Math.floor(timestamp / 1000) ;
+		SUBUpdateTime = env.SUBUPTIME || SUBUpdateTime;
+
+		let 重新汇总所有链接 = await ADD(MainData + '\n' + urls.join('\n'));
+		let 自建节点 ="";
+		let 订阅链接 ="";
+		for (let x of 重新汇总所有链接) {
 			if (x.toLowerCase().startsWith('http')) {
-				linksub += x + '\n';
+				订阅链接 += x + '\n';
 			} else {
-				link += x + '\n';
+				自建节点 += x + '\n';
 			}
 		}
-		MainData = link;
-		urls = await ADD(linksub);
-		let sublinks = request.url ;
-		//console.log(MainData,urls,sublinks);
-		
-		let warp = env.WARP ;
-		if(warp && warp != "") sublinks += '|' + (await ADD(warp)).join('|');
+		MainData = 自建节点;
+		urls = await ADD(订阅链接);
 
-		if ( !(token == mytoken || url.pathname == ("/"+ mytoken) || url.pathname.includes("/"+ mytoken + "?")) ) {
-			if ( TG == 1 && url.pathname !== "/" && url.pathname !== "/favicon.ico" ) await sendMessage("#异常访问", request.headers.get('CF-Connecting-IP'), `UA: ${userAgent}</tg-spoiler>\n域名: ${url.hostname}\n<tg-spoiler>入口: ${url.pathname + url.search}</tg-spoiler>`);
-			//首页改成一个nginx伪装页
-			return new Response(`
-			<!DOCTYPE html>
-			<html>
-			<head>
-			<title>Welcome to nginx!</title>
-			<style>
-				body {
-					width: 35em;
-					margin: 0 auto;
-					font-family: Tahoma, Verdana, Arial, sans-serif;
-				}
-			</style>
-			</head>
-			<body>
-			<h1>Welcome to nginx!</h1>
-			<p>If you see this page, the nginx web server is successfully installed and
-			working. Further configuration is required.</p>
-			
-			<p>For online documentation and support please refer to
-			<a href="http://nginx.org/">nginx.org</a>.<br/>
-			Commercial support is available at
-			<a href="http://nginx.com/">nginx.com</a>.</p>
-			
-			<p><em>Thank you for using nginx.</em></p>
-			</body>
-			</html>
-			`, {
+		if ( !(token == mytoken || token == fakeToken || url.pathname == ("/"+ mytoken) || url.pathname.includes("/"+ mytoken + "?")) ) {
+			if ( TG == 1 && url.pathname !== "/" && url.pathname !== "/favicon.ico" ) await sendMessage(`#异常访问 ${FileName}`, request.headers.get('CF-Connecting-IP'), `UA: ${userAgent}</tg-spoiler>\n域名: ${url.hostname}\n<tg-spoiler>入口: ${url.pathname + url.search}</tg-spoiler>`);
+			const envKey = env.URL302 ? 'URL302' : (env.URL ? 'URL' : null);
+			if (envKey) {
+				const URLs = await ADD(env[envKey]);
+				const URL = URLs[Math.floor(Math.random() * URLs.length)];
+				return envKey === 'URL302' ? Response.redirect(URL, 302) : fetch(new Request(URL, request));
+			}
+			return new Response(await nginx(), { 
+				status: 200 ,
 				headers: {
 					'Content-Type': 'text/html; charset=UTF-8',
 				},
 			});
-		} else if ( TG == 1 || !userAgent.includes('subconverter') || !userAgent.includes('null')){
-			await sendMessage("#获取订阅", request.headers.get('CF-Connecting-IP'), `UA: ${userAgentHeader}</tg-spoiler>\n域名: ${url.hostname}\n<tg-spoiler>入口: ${url.pathname + url.search}</tg-spoiler>`);
-		}
-
-		let req_data = MainData;
-		// 创建一个AbortController对象，用于控制fetch请求的取消
-		const controller = new AbortController();
-
-		const timeout = setTimeout(() => {
-			controller.abort(); // 取消所有请求
-		}, 1618); // 1.618秒后触发
-
-		try {
-			const responses = await Promise.allSettled(urls.map(url =>
-				fetch(url, {
-					method: 'get',
-					headers: {
-						'Accept': 'text/html,application/xhtml+xml,application/xml;',
-						'User-Agent': `v2rayn/6.42 cmliu/CF-Workers-SUB ${userAgentHeader}`
-					},
-					signal: controller.signal // 将AbortController的信号量添加到fetch请求中，以便于需要时可以取消请求
-				}).then(response => {
-					if (response.ok) {
-						return response.text().then(content => {
-							// 这里可以顺便做内容检查
-							if (content.includes('dns') && content.includes('proxies') && content.includes('proxy-groups') && content.includes('rules')) {
-								//console.log("clashsub: " + url);
-								sublinks += "|" + url;
-							} else if  (content.includes('dns') && content.includes('outbounds') && content.includes('inbounds')){
-								//console.log("singboxsub: " + url);
-								sublinks += "|" + url;
-							} else {
-								return content; // 保证链式调用中的下一个then可以接收到文本内容
-							}
-						});
-					} else {
-						return ""; // 如果response.ok为false，返回空字符串
-					}
-				})
-			));	
-			//console.log(responses);
-			for (const response of responses) {
-				if (response.status === 'fulfilled') {
-					const content = await response.value;
-					req_data += base64Decode(content) + '\n';
-				}
-			}
-		} catch (error) {
-			//console.error(error);
-		} finally {
-			// 无论成功或失败，最后都清除设置的超时定时器
-			clearTimeout(timeout);
-		}
-		//修复中文错误
-		const utf8Encoder = new TextEncoder();
-		const encodedData = utf8Encoder.encode(req_data);
-		const text = String.fromCharCode.apply(null, encodedData);
-
-		//去重
-		const uniqueLines = new Set(text.split('\n'));
-		const result = [...uniqueLines].join('\n');
-		//console.log(result);
-
-		const base64Data = btoa(result);
-		//console.log(base64Data);
-
-		//console.log("自建节点: " + MainData,"订阅链接: " + urls,"转换链接: " + sublinks);
-
-		let target = "v2ray";
-		if (userAgent.includes('clash') && !userAgent.includes('nekobox')) {
-			target = "clash";
-		} else if (userAgent.includes('sing-box') || userAgent.includes('singbox')) {
-			target = "singbox";
 		} else {
-			return new Response(base64Data ,{
-				headers: { 
-					"content-type": "text/plain; charset=utf-8",
-					"Profile-Update-Interval": `${SUBUpdateTime}`,
-				}
-			});
-		}
+			await sendMessage(`#获取订阅 ${FileName}`, request.headers.get('CF-Connecting-IP'), `UA: ${userAgentHeader}</tg-spoiler>\n域名: ${url.hostname}\n<tg-spoiler>入口: ${url.pathname + url.search}</tg-spoiler>`);
+			let 订阅格式 = 'base64';
+			if (userAgent.includes('null') || userAgent.includes('subconverter') || userAgent.includes('nekobox') || userAgent.includes(('CF-Workers-SUB').toLowerCase())){
+				订阅格式 = 'base64';
+			} else if (userAgent.includes('clash') || ( url.searchParams.has('clash') && !userAgent.includes('subconverter'))){
+				订阅格式 = 'clash';
+			} else if (userAgent.includes('sing-box') || userAgent.includes('singbox') || ( (url.searchParams.has('sb') || url.searchParams.has('singbox')) && !userAgent.includes('subconverter'))){
+				订阅格式 = 'singbox';
+			} else if (userAgent.includes('surge') || ( url.searchParams.has('surge') && !userAgent.includes('subconverter'))){
+				订阅格式 = 'surge';
+			}
 
-		const subconverterUrl = `https://${subconverter}/sub?target=${target}&url=${encodeURIComponent(sublinks)}&insert=false&config=${encodeURIComponent(subconfig)}&emoji=true&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
+			let subconverterUrl ;
+			let 订阅转换URL = `${url.origin}/${await MD5MD5(fakeToken)}?token=${fakeToken}`;
+			//console.log(订阅转换URL);
+			let req_data = MainData;
 
-		try {
-			const subconverterResponse = await fetch(subconverterUrl);
-			
-			if (!subconverterResponse.ok) {
-				throw new Error(`Error fetching subconverterUrl: ${subconverterResponse.status} ${subconverterResponse.statusText}`);
+			// 初始化缓存
+			const cache = caches.default;
+
+			let 追加UA = 'v2rayn';
+			if (url.searchParams.has('clash')){
+				追加UA = 'clash';
+			} else if(url.searchParams.has('singbox')){
+				追加UA = 'singbox';
+			} else if(url.searchParams.has('surge')){
+				追加UA = 'surge';
 			}
 			
-			const subconverterContent = await subconverterResponse.text();
+			try {
+				const responses = await Promise.all(urls.map(async url => {
+					const cacheKey = new Request(url);
+					
+					try {
+						// 设置2秒超时
+						const controller = new AbortController();
+						const timeoutId = setTimeout(() => controller.abort(), 2000);
+	
+						const response = await fetch(url, {
+							method: 'get',
+							headers: {
+								'Accept': 'text/html,application/xhtml+xml,application/xml;',
+								'User-Agent': `${追加UA} cmliu/CF-Workers-SUB ${userAgentHeader}`
+							},
+							signal: controller.signal
+						});
+	
+						clearTimeout(timeoutId);
+	
+						if (response.ok) {
+							const content = await response.text();
+							
+							// 请求成功，写入缓存，设置24小时的缓存时间
+							const cacheResponse = new Response(content, {
+								headers: {
+									...response.headers,
+									'Cache-Control': `public, max-age=${cacheTTL * 60 * 60}`
+								}
+							});
+							await cache.put(cacheKey, cacheResponse);
+							console.log(`更新缓存 ${url}:\n${content.slice(0, 10)}...`);
+							if (content.includes('dns') && content.includes('proxies') && content.includes('proxy-groups')) {
+								// Clash 配置
+								订阅转换URL += "|" + url;
+								return ""; // 返回空字符串，因为这种情况下我们不需要内容
+							} else if (content.includes('dns') && content.includes('outbounds') && content.includes('inbounds')){
+								// Singbox 配置
+								订阅转换URL += "|" + url;
+								return ""; // 返回空字符串，因为这种情况下我们不需要内容
+							} else {
+								return content;
+							}
+						} else {
+							throw new Error('请求失败');
+						}
+					} catch (error) {
+						// 请求失败或超时，尝试从缓存读取
+						const cachedResponse = await cache.match(cacheKey);
+						if (cachedResponse) {
+							const cachedContent = await cachedResponse.text();
+							console.log(`使用缓存内容 ${url}:\n${cachedContent.slice(0, 10)}...`);
+							return cachedResponse.text();
+						} else {
+							console.log(`无缓存可用 ${url}`);
+							return ""; // 缓存中也没有，返回空字符串
+						}
+					}
+				}));	
 			
-			return new Response(subconverterContent ,{
-				headers: { 
-					"Content-Disposition": `attachment; filename*=utf-8''${encodeURIComponent(FileName)}; filename=${FileName}`,
-					"content-type": "text/plain; charset=utf-8",
-					"Profile-Update-Interval": `${SUBUpdateTime}`,
+				for (const response of responses) {
+					if (response) {
+						req_data += base64Decode(response) + '\n';
+					}
 				}
-			});
-		} catch (error) {
-			return new Response(`Error: ${error.message}`, {
-				status: 500,
-				headers: { 'content-type': 'text/plain; charset=utf-8' },
-			});
-		}
+			
+			} catch (error) {
+				console.error('处理 URL 时发生错误：', error);
+			}
+			if(env.WARP) 订阅转换URL += "|" + (await ADD(env.WARP)).join("|");
+			//修复中文错误
+			const utf8Encoder = new TextEncoder();
+			const encodedData = utf8Encoder.encode(req_data);
+			const text = String.fromCharCode.apply(null, encodedData);
+			
+			//去重
+			const uniqueLines = new Set(text.split('\n'));
+			const result = [...uniqueLines].join('\n');
+			//console.log(result);
+			
+			const base64Data = btoa(result);
 
+			if (订阅格式 == 'base64' || token == fakeToken){
+				return new Response(base64Data ,{
+					headers: { 
+						"content-type": "text/plain; charset=utf-8",
+						"Profile-Update-Interval": `${SUBUpdateTime}`,
+						"Subscription-Userinfo": `upload=${UD}; download=${UD}; total=${total}; expire=${expire}`,
+					}
+				});
+			} else if (订阅格式 == 'clash'){
+				subconverterUrl = `${subProtocol}://${subconverter}/sub?target=clash&url=${encodeURIComponent(订阅转换URL)}&insert=false&config=${encodeURIComponent(subconfig)}&emoji=true&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
+			} else if (订阅格式 == 'singbox'){
+				subconverterUrl = `${subProtocol}://${subconverter}/sub?target=singbox&url=${encodeURIComponent(订阅转换URL)}&insert=false&config=${encodeURIComponent(subconfig)}&emoji=true&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
+			} else if (订阅格式 == 'surge'){
+				subconverterUrl = `${subProtocol}://${subconverter}/sub?target=surge&url=${encodeURIComponent(订阅转换URL)}&insert=false&config=${encodeURIComponent(subconfig)}&emoji=true&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
+			}
+			//console.log(订阅转换URL);
+			try {
+				const subconverterResponse = await fetch(subconverterUrl);
+				
+				if (!subconverterResponse.ok) {
+					return new Response(base64Data ,{
+						headers: { 
+							"content-type": "text/plain; charset=utf-8",
+							"Profile-Update-Interval": `${SUBUpdateTime}`,
+							"Subscription-Userinfo": `upload=${UD}; download=${UD}; total=${total}; expire=${expire}`,
+						}
+					});
+					//throw new Error(`Error fetching subconverterUrl: ${subconverterResponse.status} ${subconverterResponse.statusText}`);
+				}
+				let subconverterContent = await subconverterResponse.text();
+				if (订阅格式 == 'clash') subconverterContent =await clashFix(subconverterContent);
+				return new Response(subconverterContent, {
+					headers: { 
+						"Content-Disposition": `attachment; filename*=utf-8''${encodeURIComponent(FileName)}; filename=${FileName}`,
+						"content-type": "text/plain; charset=utf-8",
+						"Profile-Update-Interval": `${SUBUpdateTime}`,
+						"Subscription-Userinfo": `upload=${UD}; download=${UD}; total=${total}; expire=${expire}`,
+
+					},
+				});
+			} catch (error) {
+				return new Response(base64Data ,{
+					headers: { 
+						"content-type": "text/plain; charset=utf-8",
+						"Profile-Update-Interval": `${SUBUpdateTime}`,
+						"Subscription-Userinfo": `upload=${UD}; download=${UD}; total=${total}; expire=${expire}`,
+					}
+				});
+			}
+		}
 	}
 };
+
+async function ADD(envadd) {
+	var addtext = envadd.replace(/[	"'|\r\n]+/g, ',').replace(/,+/g, ',');  // 将空格、双引号、单引号和换行符替换为逗号
+	//console.log(addtext);
+	if (addtext.charAt(0) == ',') addtext = addtext.slice(1);
+	if (addtext.charAt(addtext.length -1) == ',') addtext = addtext.slice(0, addtext.length - 1);
+	const add = addtext.split(',');
+	//console.log(add);
+	return add ;
+}
+
+async function nginx() {
+	const text = `
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<title>Welcome to nginx!</title>
+	<style>
+		body {
+			width: 35em;
+			margin: 0 auto;
+			font-family: Tahoma, Verdana, Arial, sans-serif;
+		}
+	</style>
+	</head>
+	<body>
+	<h1>Welcome to nginx!</h1>
+	<p>If you see this page, the nginx web server is successfully installed and
+	working. Further configuration is required.</p>
+	
+	<p>For online documentation and support please refer to
+	<a href="http://nginx.org/">nginx.org</a>.<br/>
+	Commercial support is available at
+	<a href="http://nginx.com/">nginx.com</a>.</p>
+	
+	<p><em>Thank you for using nginx.</em></p>
+	</body>
+	</html>
+	`
+	return text ;
+}
 
 async function sendMessage(type, ip, add_data = "") {
 	if ( BotToken !== '' && ChatID !== ''){
@@ -237,19 +312,47 @@ async function sendMessage(type, ip, add_data = "") {
 	}
 }
 
-// 将 base64 编码的字符串转换为 utf-8 编码的字符
 function base64Decode(str) {
 	const bytes = new Uint8Array(atob(str).split('').map(c => c.charCodeAt(0)));
 	const decoder = new TextDecoder('utf-8');
 	return decoder.decode(bytes);
 }
 
-async function ADD(envadd) {
-	var addtext = envadd.replace(/[	 "'|\r\n]+/g, ',').replace(/,+/g, ',');  // 将空格、双引号、单引号和换行符替换为逗号
-	//console.log(addtext);
-	if (addtext.charAt(0) == ',') addtext = addtext.slice(1);
-	if (addtext.charAt(addtext.length -1) == ',') addtext = addtext.slice(0, addtext.length - 1);
-	const add = addtext.split(',');
-	//console.log(add);
-	return add ;
+async function MD5MD5(text) {
+	const encoder = new TextEncoder();
+  
+	const firstPass = await crypto.subtle.digest('MD5', encoder.encode(text));
+	const firstPassArray = Array.from(new Uint8Array(firstPass));
+	const firstHex = firstPassArray.map(b => b.toString(16).padStart(2, '0')).join('');
+
+	const secondPass = await crypto.subtle.digest('MD5', encoder.encode(firstHex.slice(7, 27)));
+	const secondPassArray = Array.from(new Uint8Array(secondPass));
+	const secondHex = secondPassArray.map(b => b.toString(16).padStart(2, '0')).join('');
+  
+	return secondHex.toLowerCase();
+}
+
+function clashFix(content) {
+	if(content.includes('wireguard') && !content.includes('remote-dns-resolve')){
+		let lines;
+		if (content.includes('\r\n')){
+			lines = content.split('\r\n');
+		} else {
+			lines = content.split('\n');
+		}
+	
+		let result = "";
+		for (let line of lines) {
+			if (line.includes('type: wireguard')) {
+				const 备改内容 = `, mtu: 1280, udp: true`;
+				const 正确内容 = `, mtu: 1280, remote-dns-resolve: true, udp: true`;
+				result += line.replace(new RegExp(备改内容, 'g'), 正确内容) + '\n';
+			} else {
+				result += line + '\n';
+			}
+		}
+
+		content = result;
+	}
+	return content;
 }
