@@ -29,14 +29,6 @@ hysteria2://bc97f674-c578-4940-9234-0a1da46041b9@128.204.223.95:43387?sni=www.bi
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlBMLXMxNC12bWVzcy13cyIsDQogICJhZGQiOiAiMTg4LjY4LjIzNC41MyIsDQogICJwb3J0IjogIjg5NzIiLA0KICAiaWQiOiAiYjA2MjQxY2UtYTIwMS00MGYxLTg1OTgtZTNmNjA1NWJhNWQ5IiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICIiLA0KICAicGF0aCI6ICIvYjA2MjQxY2UtYTIwMS00MGYxLTg1OTgtZTNmNjA1NWJhNWQ5LXZtP2VkPTIwNDgiLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=
 vless://b06241ce-a201-40f1-8598-e3f6055ba5d9@188.68.234.53:8971?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.speedtest.net&fp=chrome&pbk=nLHpjKG8L4Yvd9DCRfQ9s9EQikJz8PppioXN_UiOvnk&type=tcp&headerType=none#PL-s14-reality
 hysteria2://b06241ce-a201-40f1-8598-e3f6055ba5d9@188.68.234.53:46749?sni=www.bing.com&alpn=h3&insecure=1#PL-s14-hy2
-vless://d841421b-40b8-48f4-aaad-2cdb0782759d@[2a01:4f9:1a:aa6f:80:8d:0:a]:31100?encryption=none&flow=xtls-rprx-vision&security=reality&sni=freefi.arukesu.news&fp=chrome&pbk=3o9VpYilttVDuy3_G944YNlB96sXdtYcXXcWyO-u10A&sid=7f6c0c12&type=tcp&headerType=none#FreeFI-1
-vless://d841421b-40b8-48f4-aaad-2cdb0782759d@[2a01:4f9:1a:aa6f:80:8d:0:a]:31100?encryption=none&flow=xtls-rprx-vision&security=reality&sni=freefi.arukesu.news&fp=chrome&pbk=3o9VpYilttVDuy3_G944YNlB96sXdtYcXXcWyO-u10A&sid=7f6c0c12&type=tcp&headerType=none#FreeFI-1
-hysteria2://Fnkj3Nn5EOg4as7i@[2a01:4f9:1a:aa6f:80:8d:0:a]:20000?sni=freefi.arukesu.news&insecure=0#FreeFI-3
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkZyZWVGSS00IiwNCiAgImFkZCI6ICIyYTAxOjRmOToxYTphYTZmOjgwOjhkOjA6YSIsDQogICJwb3J0IjogIjMxMjAwIiwNCiAgImlkIjogIjVkMzZhZGEwLTFmZmQtNGRmOC1lZWZkLWIzZmNhNzUzMjk4MCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIiIsDQogICJwYXRoIjogIiIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICJmcmVlZmkuYXJ1a2VzdS5uZXdzIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=
-vless://e03c992d-9302-4e4d-b823-4ca0297bbeb6@cf.090227.xyz:443?encryption=none&security=tls&sni=lol.arukesu.news&fp=chrome&type=ws&host=lol.arukesu.news&path=%2FArukesu#FreeFI-5
-vless://e03c992d-9302-4e4d-b823-4ca0297bbeb6@ct.090227.xyz:443?encryption=none&security=tls&sni=lol.arukesu.news&fp=chrome&type=ws&host=lol.arukesu.news&path=%2FArukesu#FreeFI-6
-vless://e03c992d-9302-4e4d-b823-4ca0297bbeb6@cmcc.090227.xyz:443?encryption=none&security=tls&sni=lol.arukesu.news&fp=chrome&type=ws&host=lol.arukesu.news&path=%2FArukesu#FreeFI-7
-vless://792e6715-e981-4f92-d56d-9c45c85c0a77@103.244.89.58:21682?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14&type=tcp&headerType=none#lap%7CJP-locvps%E4%B8%AD%E8%BD%AC
 
 `
 
