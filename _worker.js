@@ -22,7 +22,8 @@ vless://fc5d6ef4-39be-4866-cecc-ed5339ec6367@www.visa.com.hk:2053?encryption=non
 vless://40cd7fd7-d3b0-4426-baca-747f449b2e4d@wawo.321700.xyz:29058?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w&type=tcp&headerType=none#wawo-hk
 vless://64bfe164-78bf-4393-e423-b2d28ba31a8f@103.244.89.58:38932?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4&type=tcp&headerType=none#locvpstcp
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogImxvY3Zwc3x0bHMiLA0KICAiYWRkIjogImxvY3Zwcy4zMjE3MDAueHl6IiwNCiAgInBvcnQiOiAiMzAzNDIiLA0KICAiaWQiOiAiZTM0MzU3MjAtYmUyMi00YTNlLTg5OGMtZmFmMTIyOTMyMzQwIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICIiLA0KICAicGF0aCI6ICIvIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
-vless://6d47ffff-15b8-402b-a0a3-48f77818e2cf@alice.321700.xyz:12166?encryption=none&security=tls&sni=alice.321700.xyz&fp=chrome&type=ws&path=%2F#Alice-tls
+vless://6d47ffff-15b8-402b-a0a3-48f77818e2cf@alice.321700.xyz:12166?encryption=none&security=tls&sni=alice.321700.xyz&fp=chrome&type=ws&path=%2F#Alice-hk-tls
+hysteria2://6603a93f-650e-402e-b1d9-42668ac0424f@alice.321700.xyz:12168?sni=www.bing.com&alpn=h3&insecure=1#Alice-HKV6-hy2
 vless://5098b568-9327-41be-b458-b30fb46d6d83@wawo.321700.xyz:34690?encryption=none&security=reality&sni=www.lovelive-anime.jp&fp=chrome&pbk=g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14&type=tcp&headerType=none#alice-M1-wawo%E4%B8%AD%E8%BD%AC
 vless://5098b568-9327-41be-b458-b30fb46d6d83@claw7.321700.xyz:12427?encryption=none&security=reality&sni=www.lovelive-anime.jp&fp=chrome&pbk=g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14&type=tcp&headerType=none#Alice_HK-M1-claw%E4%B8%AD%E8%BD%AC
 hysteria2://5e4d366e98407448@157.254.21.197:26001?sni=www.bing.com&alpn=h3&insecure=1#Alice_HK-M1
