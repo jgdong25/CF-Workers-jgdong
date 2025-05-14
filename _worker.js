@@ -37,7 +37,6 @@ hysteria2://0e2e83d686da058b@34.80.123.201:26001?sni=www.bing.com&alpn=h3&insecu
 vless://41965c4e-24d4-4581-8575-0ef2a653ca4f@35.212.128.132:53262?encryption=none&security=reality&sni=www.lovelive-anime.jp&fp=chrome&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&type=tcp&headerType=none#Gcp300-US
 vless://51771870-e320-4dee-c8ec-19a310001518@34.150.1.91:51716?encryption=none&security=reality&sni=www.speedtest.net&fp=chrome&pbk=qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY&type=tcp&headerType=none#Gcp300-HK
 hysteria2://5d04a3e89c95a534@34.150.1.91:26001?sni=www.bing.com&alpn=h3&insecure=1#HK-Google_Cloud
-ss://YWVzLTI1Ni1nY206MFQ4RE9YVUR2UkJaOWpQRWJQb3lRMUw2WjZtNGRONXF4dm5UNjFtSE9GZXk%3D@185.206.250.86:17538#%E6%96%B0%E5%8A%A0%E5%9D%A1bgp
 hysteria2://edc314fc5e2fb7e8@163.223.183.64:60281?sni=www.bing.com&alpn=h3&insecure=1#US-Aiyun_HK_Network
 vless://f6ba156a-a753-4fe9-d82a-a56b8539e3f3@tw-ty-line1-2-2.sudatech.store:21041?encryption=none&security=reality&sni=www.speedtest.net&fp=chrome&pbk=g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14&type=tcp&headerType=none#suda
 
