@@ -39,6 +39,7 @@ vless://51771870-e320-4dee-c8ec-19a310001518@34.150.1.91:51716?encryption=none&s
 hysteria2://5d04a3e89c95a534@34.150.1.91:26001?sni=www.bing.com&alpn=h3&insecure=1#HK-Google_Cloud
 hysteria2://edc314fc5e2fb7e8@163.223.183.64:60281?sni=www.bing.com&alpn=h3&insecure=1#US-Aiyun_HK_Network
 vless://f6ba156a-a753-4fe9-d82a-a56b8539e3f3@tw-ty-line1-2-2.sudatech.store:21041?encryption=none&security=reality&sni=www.speedtest.net&fp=chrome&pbk=g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14&type=tcp&headerType=none#suda
+hysteria2://DRAAoEbDU6dRMrVKMNKEvhBrAY@8.210.184.183:6116?sni=bing.com&insecure=1#Claw-HK-12.6
 
 `
 
