@@ -38,8 +38,9 @@ vless://41965c4e-24d4-4581-8575-0ef2a653ca4f@35.212.128.132:53262?encryption=non
 vless://51771870-e320-4dee-c8ec-19a310001518@34.150.1.91:51716?encryption=none&security=reality&sni=www.speedtest.net&fp=chrome&pbk=qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY&type=tcp&headerType=none#Gcp300-HK
 hysteria2://5d04a3e89c95a534@34.150.1.91:26001?sni=www.bing.com&alpn=h3&insecure=1#HK-Google_Cloud
 hysteria2://edc314fc5e2fb7e8@163.223.183.64:60281?sni=www.bing.com&alpn=h3&insecure=1#US-Aiyun_HK_Network
-vless://f6ba156a-a753-4fe9-d82a-a56b8539e3f3@tw-ty-line1-2-2.sudatech.store:21041?encryption=none&security=reality&sni=www.speedtest.net&fp=chrome&pbk=g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14&type=tcp&headerType=none#suda
 hysteria2://DRAAoEbDU6dRMrVKMNKEvhBrAY@8.210.184.183:6116?sni=bing.com&insecure=1#Claw-HK-12.6
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlZscy1KUC1WdWx0ciIsDQogICJhZGQiOiAid3d3LnVkYWNpdHkuY29tIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogIjhkYjIxYmZiLTg1NjAtNGRmYS04ZWJjLWJlNDU1MmUwNmRhOSIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAibm9uZSIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiZWd5cHQtc29ja2V0LWxlY3R1cmVzLWJlY29tZS50cnljbG91ZGZsYXJlLmNvbSIsDQogICJwYXRoIjogIi92bWVzcy1hcmdvP2VkPTIwNDgiLA0KICAidGxzIjogInRscyIsDQogICJzbmkiOiAiZWd5cHQtc29ja2V0LWxlY3R1cmVzLWJlY29tZS50cnljbG91ZGZsYXJlLmNvbSIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
+hysteria2://ba498907-2c61-4161-ace1-09928193e744@113.29.231.226:27057?sni=www.bing.com&alpn=h3&insecure=1#hy2-localhost
 
 `
 
