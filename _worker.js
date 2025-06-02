@@ -39,7 +39,7 @@ vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlZscy1KUC1WdWx0ciIsDQogICJhZGQiOiAid3d3
 hysteria2://ba498907-2c61-4161-ace1-09928193e744@113.29.231.226:27057?sni=www.bing.com&alpn=h3&insecure=1#hy2-ReadyServer
 ss://YWVzLTI1Ni1nY206d3JYRG0zdkNtY09Dd3E5dHdwdkRqMkxDb01LWXc3SER1OEtud3J6Q2hpRENuZ0hDdThLbWYwWERoVUJHdzdMRG5zS1N3cVREdFE9PQ%3D%3D@[240b:4000:93:de00:0:fe9:f9b0:2d94]:44331#SGP-Claw
 hysteria2://7675a824-9561-4a70-a69e-42a643b044ca@34.92.103.141:25168?sni=www.bing.com&alpn=h3&insecure=1#HK-Google_Cloud
-vless://d966970b-d375-47b7-b9d0-573c5a90562c@[2600:1900:41a0:44d::]:22044?type=tcp&security=reality&sni=www.icloud.com&pbk=UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM&flow=&fp=chrome#gcp-zjgzwt-v6|70Jl.love@xray.com
+vless://d966970b-d375-47b7-b9d0-573c5a90562c@[2600:1900:41a0:44d::]:22044?type=tcp&security=reality&sni=www.icloud.com&pbk=UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM&flow=&fp=chrome#gcp-zjgzwt-v6
 
 `
 
