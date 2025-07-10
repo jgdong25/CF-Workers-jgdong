@@ -23,7 +23,7 @@ vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogImxvY3Zwc3x0bHMiLA0KICAiYWRkIjogImxvY3Zw
 vless://8224014b-696b-416f-f99c-00ab16e51dad@[2600:1900:41a0:44d::]:29238?encryption=none&security=reality&sni=www.icloud.com&fp=chrome&pbk=qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY&type=tcp&headerType=none#waphk6-gcp%E4%B8%AD%E8%BD%AC
 vless://6d47ffff-15b8-402b-a0a3-48f77818e2cf@[2600:1900:41a0:44d::]:13944?encryption=none&security=tls&sni=alice.321700.xyz&fp=chrome&type=ws&path=%2F#Alice-hk-tls-gcp%E4%B8%AD%E8%BD%AC
 
-vless://6d47ffff-15b8-402b-a0a3-48f77818e2cf@alice.321700.xyz:12166?encryption=none&security=tls&sni=alice.321700.xyz&fp=chrome&type=ws&path=%2F#Alice-hk-tls
+//vless://6d47ffff-15b8-402b-a0a3-48f77818e2cf@alice.321700.xyz:12166?encryption=none&security=tls&sni=alice.321700.xyz&fp=chrome&type=ws&path=%2F#Alice-hk-tls
 vless://8373437e-2f7e-42b7-8f51-b6dc3e98623d@[2600:1900:41a0:44d::]:40261?encryption=none&security=reality&sni=tesla.com&fp=chrome&pbk=8NH3TW4EGIpoHP_N3xzPD8KzWY27ZUXp2d-Fa9gtHWA&sid=51b365&spx=%2F&type=tcp&headerType=none#alice-hkv6-SG-clone
 hysteria2://6603a93f-650e-402e-b1d9-42668ac0424f@alice.321700.xyz:12168?sni=www.bing.com&alpn=h3&insecure=1#Alice-HKV6-hy2
 vless://b2692a1a-805d-4bd6-8068-7d8264965e16@104.19.0.0:2082?encryption=none&security=none&type=ws&host=cf.321700.xyz&path=%2F#yg-vl-US
@@ -33,7 +33,7 @@ vless://61dc3dbf-b1a7-4fad-963f-0334053d22fd@[2001:67c:2960:6464::6815:e005]:443
 vless://fca2f5b6-1011-41b6-a822-7a6c6b24b168@claw7.321700.xyz:38116?encryption=none&security=reality&sni=icloud.com&fp=chrome&pbk=g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14&type=tcp&headerType=none#claw7
 //hysteria2://02af5ccb9bb66fe5@47.79.32.102:26002?sni=www.bing.com&alpn=h3&insecure=1#claw7-JP-hy2
 //vless://c73df23c-4f03-4e0c-897f-c8b14b125f4e@156.238.251.95:43733?encryption=none&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg&type=tcp&headerType=none#%E7%8B%90%E8%92%82%E4%BA%91US-Multacom
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkhvbmdLb25nIiwNCiAgImFkZCI6ICIxMzkuMTk4LjEyMS4xNzMiLA0KICAicG9ydCI6ICIyMzY1NiIsDQogICJpZCI6ICJiZTA5ZDFkYy03OTAxLTQzNGYtOTczNi03ZWY4N2VkMjJmMzMiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogInRjcCIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICIiLA0KICAicGF0aCI6ICIiLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=
+//vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkhvbmdLb25nIiwNCiAgImFkZCI6ICIxMzkuMTk4LjEyMS4xNzMiLA0KICAicG9ydCI6ICIyMzY1NiIsDQogICJpZCI6ICJiZTA5ZDFkYy03OTAxLTQzNGYtOTczNi03ZWY4N2VkMjJmMzMiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogInRjcCIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICIiLA0KICAicGF0aCI6ICIiLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=
 vless://6a2d094b-3159-4e5b-8d88-781041efdc6b@34.80.123.201:31055?encryption=none&security=reality&sni=icloud.cdn-apple.com&fp=chrome&pbk=cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA&type=tcp&headerType=none#Gcp300-TW
 hysteria2://0e2e83d686da058b@34.80.123.201:26001?sni=www.bing.com&alpn=h3&insecure=1#TW-Google_Cloud
 vless://41965c4e-24d4-4581-8575-0ef2a653ca4f@35.212.128.132:53262?encryption=none&security=reality&sni=www.lovelive-anime.jp&fp=chrome&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&type=tcp&headerType=none#Gcp300-US
@@ -44,6 +44,7 @@ hysteria2://ba498907-2c61-4161-ace1-09928193e744@113.29.231.226:27057?sni=www.bi
 ss://YWVzLTI1Ni1nY206d3JYRG0zdkNtY09Dd3E5dHdwdkRqMkxDb01LWXc3SER1OEtud3J6Q2hpRENuZ0hDdThLbWYwWERoVUJHdzdMRG5zS1N3cVREdFE9PQ%3D%3D@[240b:4000:93:de00:0:fe9:f9b0:2d94]:44331#SGP-Claw
 hysteria2://7675a824-9561-4a70-a69e-42a643b044ca@34.92.103.141:25168?sni=www.bing.com&alpn=h3&insecure=1#HK-Google_Cloud
 vless://d966970b-d375-47b7-b9d0-573c5a90562c@[2600:1900:41a0:44d::]:22044?type=tcp&security=reality&sni=www.icloud.com&pbk=UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM&flow=&fp=chrome#gcp-zjgzwt-v6
+vless://eedb249c-f0a1-4e9a-8a58-3903ff037849@[2600:1900:41a0:44d::]:44418?encryption=none&security=tls&sni=alice1.321700.xyz&type=ws&host=alice1.321700.xyz&path=%2F#alice-cf-SG-GCP%E4%B8%AD%E8%BD%AC
 
 `
 
