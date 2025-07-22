@@ -34,14 +34,8 @@ vless://fca2f5b6-1011-41b6-a822-7a6c6b24b168@claw7.321700.xyz:38116?encryption=n
 //hysteria2://02af5ccb9bb66fe5@47.79.32.102:26002?sni=www.bing.com&alpn=h3&insecure=1#claw7-JP-hy2
 //vless://c73df23c-4f03-4e0c-897f-c8b14b125f4e@156.238.251.95:43733?encryption=none&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg&type=tcp&headerType=none#%E7%8B%90%E8%92%82%E4%BA%91US-Multacom
 //vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkhvbmdLb25nIiwNCiAgImFkZCI6ICIxMzkuMTk4LjEyMS4xNzMiLA0KICAicG9ydCI6ICIyMzY1NiIsDQogICJpZCI6ICJiZTA5ZDFkYy03OTAxLTQzNGYtOTczNi03ZWY4N2VkMjJmMzMiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogInRjcCIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICIiLA0KICAicGF0aCI6ICIiLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=
-vless://6a2d094b-3159-4e5b-8d88-781041efdc6b@34.80.123.201:31055?encryption=none&security=reality&sni=icloud.cdn-apple.com&fp=chrome&pbk=cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA&type=tcp&headerType=none#Gcp300-TW
-hysteria2://0e2e83d686da058b@34.80.123.201:26001?sni=www.bing.com&alpn=h3&insecure=1#TW-Google_Cloud
-ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206ZS9sbmZ2Z21yTEZIcTRUR3RGRStHUT09@34.96.175.23:63935#SS-34.96.175.23
-ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206NVZZTjV1N1NmajFpQk9tMCt3dDRWZz09@35.206.214.234:19550#gcp-tw
 
 vless://41965c4e-24d4-4581-8575-0ef2a653ca4f@35.212.128.132:53262?encryption=none&security=reality&sni=www.lovelive-anime.jp&fp=chrome&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&type=tcp&headerType=none#Gcp300-US
-vless://6c92c4ee-ac48-4041-d4e6-caa38ef74045@34.150.1.91:40302?encryption=none&security=reality&sni=icloud.com&fp=chrome&pbk=Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4&type=tcp&headerType=none#Gcp300-HK
-hysteria2://5d04a3e89c95a534@34.150.1.91:26001?sni=www.bing.com&alpn=h3&insecure=1#HK-Google_Cloud
 
 hysteria2://ba498907-2c61-4161-ace1-09928193e744@113.29.231.226:27057?sni=www.bing.com&alpn=h3&insecure=1#hy2-ReadyServer
 ss://YWVzLTI1Ni1nY206d3JYRG0zdkNtY09Dd3E5dHdwdkRqMkxDb01LWXc3SER1OEtud3J6Q2hpRENuZ0hDdThLbWYwWERoVUJHdzdMRG5zS1N3cVREdFE9PQ%3D%3D@[240b:4000:93:de00:0:fe9:f9b0:2d94]:44331#SGP-Claw
