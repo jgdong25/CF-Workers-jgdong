@@ -25,11 +25,9 @@ vless://8224014b-696b-416f-f99c-00ab16e51dad@[2600:1900:41a0:44d::]:29238?encryp
 vless://6d47ffff-15b8-402b-a0a3-48f77818e2cf@[2600:1900:41a0:44d::]:13944?encryption=none&security=tls&sni=alice.321700.xyz&fp=chrome&type=ws&path=%2F#Alice-hk-tls-gcp%E4%B8%AD%E8%BD%AC
 
 //vless://6d47ffff-15b8-402b-a0a3-48f77818e2cf@alice.321700.xyz:12166?encryption=none&security=tls&sni=alice.321700.xyz&fp=chrome&type=ws&path=%2F#Alice-hk-tls
-vless://8373437e-2f7e-42b7-8f51-b6dc3e98623d@[2600:1900:41a0:44d::]:40261?encryption=none&security=reality&sni=tesla.com&fp=chrome&pbk=8NH3TW4EGIpoHP_N3xzPD8KzWY27ZUXp2d-Fa9gtHWA&sid=51b365&spx=%2F&type=tcp&headerType=none#alice-hkv6-SG-clone
 hysteria2://6603a93f-650e-402e-b1d9-42668ac0424f@alice.321700.xyz:12168?sni=www.bing.com&alpn=h3&insecure=1#Alice-HKV6-hy2
 vless://b2692a1a-805d-4bd6-8068-7d8264965e16@104.19.0.0:2082?encryption=none&security=none&type=ws&host=cf.321700.xyz&path=%2F#yg-vl-US
 vless://b2692a1a-805d-4bd6-8068-7d8264965e16@[2602:fc59:b0:64::6811:19ad]:2082?encryption=none&security=none&type=ws&host=cf.321700.xyz&path=%2F#yg-US-CDNV6
-vless://61dc3dbf-b1a7-4fad-963f-0334053d22fd@[2001:67c:2960:6464::6815:e005]:443?encryption=none&security=tls&sni=bot.jgdong.dpdns.org&type=ws&host=bot.jgdong.dpdns.org&path=%2Fvless-argo%3Fed%3D2048#Vls-FI-Hetzner-CDNV6
 
 vless://fca2f5b6-1011-41b6-a822-7a6c6b24b168@claw7.321700.xyz:38116?encryption=none&security=reality&sni=icloud.com&fp=chrome&pbk=g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14&type=tcp&headerType=none#claw7
 //hysteria2://02af5ccb9bb66fe5@47.79.32.102:26002?sni=www.bing.com&alpn=h3&insecure=1#claw7-JP-hy2
@@ -43,7 +41,7 @@ vless://4cc47d61-7813-4f1d-9282-81c5053299e0@gcptw.3217.xx.kg:30660?encryption=n
 hysteria2://3fe36742-ee49-4aac-bbbc-ae1c996ef743@35.234.30.107:60002?sni=www.bing.com&alpn=h3&insecure=1#TW-Google_LLC
 
 vless://1621a0ae-a054-4388-97ba-358c7429a8a4@wawo.321700.xyz:24319?encryption=none&security=reality&sni=www.speedtest.org&fp=chrome&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&type=tcp&headerType=none#RS-hk-wawo%E4%B8%AD%E8%BD%AC
-hysteria2://ba498907-2c61-4161-ace1-09928193e744@113.29.231.226:27057?sni=www.bing.com&alpn=h3&insecure=1#hy2-ReadyServer-SG
+//hysteria2://ba498907-2c61-4161-ace1-09928193e744@113.29.231.226:27057?sni=www.bing.com&alpn=h3&insecure=1#hy2-ReadyServer-SG
 ss://YWVzLTI1Ni1nY206d3JYRG0zdkNtY09Dd3E5dHdwdkRqMkxDb01LWXc3SER1OEtud3J6Q2hpRENuZ0hDdThLbWYwWERoVUJHdzdMRG5zS1N3cVREdFE9PQ%3D%3D@[240b:4000:93:de00:0:fe9:f9b0:2d94]:44331#SGP-Claw
 vless://4a1eae78-8a83-4d1c-936f-c6b3afcb5d9c@isif.987677.xyz:29184?encryption=none&flow=xtls-rprx-vision&security=reality&sni=icloud.com&fp=chrome&pbk=q9UhY5OjEbAZWmNxwzgRAq1CB7zDN7IvZ7FiAUI0IAg&sid=bf7ceec6&spx=%2F&type=tcp&headerType=none#isif_HK-solaireh
 
