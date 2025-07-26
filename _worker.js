@@ -43,7 +43,6 @@ hysteria2://3fe36742-ee49-4aac-bbbc-ae1c996ef743@35.234.30.107:60002?sni=www.bin
 vless://1621a0ae-a054-4388-97ba-358c7429a8a4@wawo.321700.xyz:24319?encryption=none&security=reality&sni=www.speedtest.org&fp=chrome&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&type=tcp&headerType=none#RS-hk-wawo%E4%B8%AD%E8%BD%AC
 //hysteria2://ba498907-2c61-4161-ace1-09928193e744@113.29.231.226:27057?sni=www.bing.com&alpn=h3&insecure=1#hy2-ReadyServer-SG
 ss://YWVzLTI1Ni1nY206d3JYRG0zdkNtY09Dd3E5dHdwdkRqMkxDb01LWXc3SER1OEtud3J6Q2hpRENuZ0hDdThLbWYwWERoVUJHdzdMRG5zS1N3cVREdFE9PQ%3D%3D@[240b:4000:93:de00:0:fe9:f9b0:2d94]:44331#SGP-Claw
-vless://4a1eae78-8a83-4d1c-936f-c6b3afcb5d9c@isif.987677.xyz:29184?encryption=none&flow=xtls-rprx-vision&security=reality&sni=icloud.com&fp=chrome&pbk=q9UhY5OjEbAZWmNxwzgRAq1CB7zDN7IvZ7FiAUI0IAg&sid=bf7ceec6&spx=%2F&type=tcp&headerType=none#isif_HK-solaireh
 
 `
 
