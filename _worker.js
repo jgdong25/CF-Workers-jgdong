@@ -34,7 +34,7 @@ hysteria2://02af5ccb9bb66fe5@47.79.32.102:26002?sni=www.bing.com&alpn=h3&insecur
 //vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkhvbmdLb25nIiwNCiAgImFkZCI6ICIxMzkuMTk4LjEyMS4xNzMiLA0KICAicG9ydCI6ICIyMzY1NiIsDQogICJpZCI6ICJiZTA5ZDFkYy03OTAxLTQzNGYtOTczNi03ZWY4N2VkMjJmMzMiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogInRjcCIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICIiLA0KICAicGF0aCI6ICIiLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=
 hysteria2://8096faf8-0758-475b-9c32-377007abe4bd@34.124.159.245:26000?sni=www.bing.com&alpn=h3&insecure=1#SG-Google_25
 
-vless://cf3775e8-8758-4102-f2e6-9415cfb65046@35.212.207.154:26470?encryption=none&security=reality&sni=www.icloud.com&fp=chrome&pbk=9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc&type=tcp&headerType=none#gcp26-us
+vless://cf3775e8-8758-4102-f2e6-9415cfb65046@35.212.207.154:26470?encryption=none&security=reality&sni=www.icloud.com&fp=chrome&pbk=9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc&type=tcp&headerType=none#US-Google-26
 hysteria2://7675a824-9561-4a70-a69e-42a643b044ca@34.92.103.141:25168?sni=www.bing.com&alpn=h3&insecure=1#HK-Google_Cloud
 vless://d966970b-d375-47b7-b9d0-573c5a90562c@[2600:1900:41a0:44d::]:22044?type=tcp&security=reality&sni=www.icloud.com&pbk=UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM&flow=&fp=chrome#HK-Google-v6
 vless://4cc47d61-7813-4f1d-9282-81c5053299e0@gcptw.3217.xx.kg:30660?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=PA1cJlJwD69a0gv7wSWuITZVQmUtO4qXx7YtFqDUk3U&sid=1645&spx=%2F&type=tcp&headerType=none#TW-Google-Cloud
