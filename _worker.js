@@ -33,11 +33,12 @@ vless://fca2f5b6-1011-41b6-a822-7a6c6b24b168@claw7.321700.xyz:38116?encryption=n
 //vless://c73df23c-4f03-4e0c-897f-c8b14b125f4e@156.238.251.95:43733?encryption=none&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg&type=tcp&headerType=none#%E7%8B%90%E8%92%82%E4%BA%91US-Multacom
 //vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkhvbmdLb25nIiwNCiAgImFkZCI6ICIxMzkuMTk4LjEyMS4xNzMiLA0KICAicG9ydCI6ICIyMzY1NiIsDQogICJpZCI6ICJiZTA5ZDFkYy03OTAxLTQzNGYtOTczNi03ZWY4N2VkMjJmMzMiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogInRjcCIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICIiLA0KICAicGF0aCI6ICIiLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=
 
-vless://41965c4e-24d4-4581-8575-0ef2a653ca4f@35.212.128.132:53262?encryption=none&security=reality&sni=www.lovelive-anime.jp&fp=chrome&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&type=tcp&headerType=none#Gcp300-US
+vless://cf3775e8-8758-4102-f2e6-9415cfb65046@35.212.207.154:26470?encryption=none&security=reality&sni=www.icloud.com&fp=chrome&pbk=9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc&type=tcp&headerType=none#gcp26-us
 hysteria2://7675a824-9561-4a70-a69e-42a643b044ca@34.92.103.141:25168?sni=www.bing.com&alpn=h3&insecure=1#HK-Google_Cloud
 vless://d966970b-d375-47b7-b9d0-573c5a90562c@[2600:1900:41a0:44d::]:22044?type=tcp&security=reality&sni=www.icloud.com&pbk=UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM&flow=&fp=chrome#HK-Google-v6
 vless://4cc47d61-7813-4f1d-9282-81c5053299e0@gcptw.3217.xx.kg:30660?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=PA1cJlJwD69a0gv7wSWuITZVQmUtO4qXx7YtFqDUk3U&sid=1645&spx=%2F&type=tcp&headerType=none#TW-Google-Cloud
 hysteria2://3fe36742-ee49-4aac-bbbc-ae1c996ef743@35.234.30.107:60002?sni=www.bing.com&alpn=h3&insecure=1#TW-Google_LLC
+hysteria2://c58b4d54-641f-42f1-9915-69bd5cdf5f1e@34.80.154.113:29733?sni=www.bing.com&alpn=h3&insecure=1#TW-Cloudflare_26
 
 vless://1621a0ae-a054-4388-97ba-358c7429a8a4@wawo.321700.xyz:24319?encryption=none&security=reality&sni=www.speedtest.org&fp=chrome&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&type=tcp&headerType=none#RS-hk-wawo%E4%B8%AD%E8%BD%AC
 //hysteria2://ba498907-2c61-4161-ace1-09928193e744@113.29.231.226:27057?sni=www.bing.com&alpn=h3&insecure=1#hy2-ReadyServer-SG
