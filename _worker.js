@@ -27,7 +27,6 @@ vless://6d47ffff-15b8-402b-a0a3-48f77818e2cf@[2600:1900:41a0:44d::]:13944?encryp
 //vless://6d47ffff-15b8-402b-a0a3-48f77818e2cf@alice.321700.xyz:12166?encryption=none&security=tls&sni=alice.321700.xyz&fp=chrome&type=ws&path=%2F#Alice-hk-tls
 hysteria2://6603a93f-650e-402e-b1d9-42668ac0424f@alice.321700.xyz:12168?sni=www.bing.com&alpn=h3&insecure=1#Alice-HKV6-hy2
 vless://b2692a1a-805d-4bd6-8068-7d8264965e16@104.19.0.0:2082?encryption=none&security=none&type=ws&host=cf.321700.xyz&path=%2F#yg-vl-US
-vless://b2692a1a-805d-4bd6-8068-7d8264965e16@[2602:fc59:b0:64::6811:19ad]:2082?encryption=none&security=none&type=ws&host=cf.321700.xyz&path=%2F#yg-US-CDNV6
 
 vless://fca2f5b6-1011-41b6-a822-7a6c6b24b168@claw7.321700.xyz:38116?encryption=none&security=reality&sni=icloud.com&fp=chrome&pbk=g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14&type=tcp&headerType=none#claw7
 hysteria2://02af5ccb9bb66fe5@47.79.32.102:26002?sni=www.bing.com&alpn=h3&insecure=1#claw7-JP-hy2
