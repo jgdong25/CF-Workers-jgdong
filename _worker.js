@@ -41,6 +41,7 @@ vless://1621a0ae-a054-4388-97ba-358c7429a8a4@wawo.321700.xyz:24319?encryption=no
 //hysteria2://ba498907-2c61-4161-ace1-09928193e744@113.29.231.226:27057?sni=www.bing.com&alpn=h3&insecure=1#hy2-ReadyServer-SG
 ss://YWVzLTI1Ni1nY206d3JYRG0zdkNtY09Dd3E5dHdwdkRqMkxDb01LWXc3SER1OEtud3J6Q2hpRENuZ0hDdThLbWYwWERoVUJHdzdMRG5zS1N3cVREdFE9PQ%3D%3D@[240b:4000:93:de00:0:fe9:f9b0:2d94]:44331#SGP-Claw
 vless://40b9e55d-7894-4a8e-b4dc-64819ddd6229@supplierportal.qad.com:8443?encryption=none&security=tls&sni=rnp.wctm.eu.org&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&type=ws&host=rnp.wctm.eu.org&path=%2Fproxyip#Racknerd-USA
+hysteria2://28487a52-36b5-48ab-aaa0-44bbc9921e30@34.142.176.27:9387?sni=www.bing.com&alpn=h3&insecure=1#ZJGYSD-SG
 
 
 `
