@@ -22,7 +22,7 @@ vless://aa3e44ea-24db-4539-9387-c1488615e652@156.238.251.95:59941?encryption=non
 vless://8224014b-696b-416f-f99c-00ab16e51dad@[2600:1900:41a0:44d::]:29238?encryption=none&security=reality&sni=www.icloud.com&fp=chrome&pbk=qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY&type=tcp&headerType=none#waphk6-gcp%E4%B8%AD%E8%BD%AC
 vless://6d47ffff-15b8-402b-a0a3-48f77818e2cf@[2600:1900:41a0:44d::]:13944?encryption=none&security=tls&sni=alice.321700.xyz&fp=chrome&type=ws&path=%2F#Alice-hk-tls-gcp%E4%B8%AD%E8%BD%AC
 hysteria2://6603a93f-650e-402e-b1d9-42668ac0424f@alice.321700.xyz:12168?sni=www.bing.com&alpn=h3&insecure=1#Alice-HKV6-hy2
-/vless://fca2f5b6-1011-41b6-a822-7a6c6b24b168@claw7.321700.xyz:38116?encryption=none&security=reality&sni=icloud.com&fp=chrome&pbk=g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14&type=tcp&headerType=none#claw7
+//vless://fca2f5b6-1011-41b6-a822-7a6c6b24b168@claw7.321700.xyz:38116?encryption=none&security=reality&sni=icloud.com&fp=chrome&pbk=g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14&type=tcp&headerType=none#claw7
 hysteria2://02af5ccb9bb66fe5@47.79.32.102:26002?sni=www.bing.com&alpn=h3&insecure=1#claw7-JP-hy2
 hysteria2://7675a824-9561-4a70-a69e-42a643b044ca@34.96.158.138:25999?sni=www.bing.com&alpn=h3&insecure=1#HK-Google_Cloud
 vless://d966970b-d375-47b7-b9d0-573c5a90562c@[2600:1900:41a0:44d::]:22044?encryption=none&security=reality&sni=www.icloud.com&fp=chrome&pbk=UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM&type=tcp&headerType=none#HK-Google-v6
