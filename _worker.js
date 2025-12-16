@@ -18,17 +18,17 @@ vless://11ad7730-13b4-48c6-d40a-810085d20e87@107.172.97.4:48029?encryption=none&
 vless://41965c4e-24d4-4581-8575-0ef2a653ca4f@35.212.183.31:53262?encryption=none&security=reality&sni=icloud.cdn-apple.com&fp=chrome&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&type=tcp&headerType=none#US-zjgysd
 vless://40b9e55d-7894-4a8e-b4dc-64819ddd6229@ali.055500.xyz:443?encryption=none&security=tls&sni=rnp.wctm.eu.org&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&type=ws&host=rnp.wctm.eu.org&path=%2Fproxyip#Racknerd-USA
 vless://aa3e44ea-24db-4539-9387-c1488615e652@156.238.251.95:59941?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.iij.ad.jp&fp=firefox&pbk=cGnAzSnCWRhPjhPOrsz1rdm93mHdDHLYmXRPNNojAAk&type=tcp&headerType=none#US-%E8%83%A1%E8%92%82%E4%BA%91
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlVTLeiDoeiSguS6kSIsDQogICJhZGQiOiAiY2YuODc3Nzc0Lnh5eiIsDQogICJwb3J0IjogIjQ0MyIsDQogICJpZCI6ICJhYTNlNDRlYS0yNGRiLTQ1MzktOTM4Ny1jMTQ4ODYxNWU2NTIiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogIm5vbmUiLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogInNjaWVuY2UtdG93bnMtcGxheWxpc3QtZXhlcmNpc2UudHJ5Y2xvdWRmbGFyZS5jb20iLA0KICAicGF0aCI6ICIvdm1lc3MtYXJnbz9lZD0yNTYwIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogInNjaWVuY2UtdG93bnMtcGxheWxpc3QtZXhlcmNpc2UudHJ5Y2xvdWRmbGFyZS5jb20iLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiZmlyZWZveCINCn0=
+//vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlVTLeiDoeiSguS6kSIsDQogICJhZGQiOiAiY2YuODc3Nzc0Lnh5eiIsDQogICJwb3J0IjogIjQ0MyIsDQogICJpZCI6ICJhYTNlNDRlYS0yNGRiLTQ1MzktOTM4Ny1jMTQ4ODYxNWU2NTIiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogIm5vbmUiLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogInNjaWVuY2UtdG93bnMtcGxheWxpc3QtZXhlcmNpc2UudHJ5Y2xvdWRmbGFyZS5jb20iLA0KICAicGF0aCI6ICIvdm1lc3MtYXJnbz9lZD0yNTYwIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogInNjaWVuY2UtdG93bnMtcGxheWxpc3QtZXhlcmNpc2UudHJ5Y2xvdWRmbGFyZS5jb20iLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiZmlyZWZveCINCn0=
 vless://8224014b-696b-416f-f99c-00ab16e51dad@[2600:1900:41a0:44d::]:29238?encryption=none&security=reality&sni=www.icloud.com&fp=chrome&pbk=qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY&type=tcp&headerType=none#waphk6-gcp%E4%B8%AD%E8%BD%AC
 vless://6d47ffff-15b8-402b-a0a3-48f77818e2cf@[2600:1900:41a0:44d::]:13944?encryption=none&security=tls&sni=alice.321700.xyz&fp=chrome&type=ws&path=%2F#Alice-hk-tls-gcp%E4%B8%AD%E8%BD%AC
 hysteria2://6603a93f-650e-402e-b1d9-42668ac0424f@alice.321700.xyz:12168?sni=www.bing.com&alpn=h3&insecure=1#Alice-HKV6-hy2
-vless://fca2f5b6-1011-41b6-a822-7a6c6b24b168@claw7.321700.xyz:38116?encryption=none&security=reality&sni=icloud.com&fp=chrome&pbk=g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14&type=tcp&headerType=none#claw7
+/vless://fca2f5b6-1011-41b6-a822-7a6c6b24b168@claw7.321700.xyz:38116?encryption=none&security=reality&sni=icloud.com&fp=chrome&pbk=g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14&type=tcp&headerType=none#claw7
 hysteria2://02af5ccb9bb66fe5@47.79.32.102:26002?sni=www.bing.com&alpn=h3&insecure=1#claw7-JP-hy2
 hysteria2://7675a824-9561-4a70-a69e-42a643b044ca@34.96.158.138:25999?sni=www.bing.com&alpn=h3&insecure=1#HK-Google_Cloud
 vless://d966970b-d375-47b7-b9d0-573c5a90562c@[2600:1900:41a0:44d::]:22044?encryption=none&security=reality&sni=www.icloud.com&fp=chrome&pbk=UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM&type=tcp&headerType=none#HK-Google-v6
 vless://4cc47d61-7813-4f1d-9282-81c5053299e0@gcptw.3217.xx.kg:30660?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=PA1cJlJwD69a0gv7wSWuITZVQmUtO4qXx7YtFqDUk3U&sid=1645&spx=%2F&type=tcp&headerType=none#TW-Google-Cloud
 hysteria2://3fe36742-ee49-4aac-bbbc-ae1c996ef743@35.234.30.107:60002?sni=www.bing.com&alpn=h3&insecure=1#TW-Google_LLC
-ss://YWVzLTI1Ni1nY206d3JYRG0zdkNtY09Dd3E5dHdwdkRqMkxDb01LWXc3SER1OEtud3J6Q2hpRENuZ0hDdThLbWYwWERoVUJHdzdMRG5zS1N3cVREdFE9PQ%3D%3D@[240b:4000:93:de00:0:fe9:f9b0:2d94]:44331#SGP-Claw
+//ss://YWVzLTI1Ni1nY206d3JYRG0zdkNtY09Dd3E5dHdwdkRqMkxDb01LWXc3SER1OEtud3J6Q2hpRENuZ0hDdThLbWYwWERoVUJHdzdMRG5zS1N3cVREdFE9PQ%3D%3D@[240b:4000:93:de00:0:fe9:f9b0:2d94]:44331#SGP-Claw
 
 `
 
