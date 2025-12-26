@@ -16,6 +16,10 @@ vless://11ad7730-13b4-48c6-d40a-810085d20e87@107.172.97.4:48029?encryption=none&
 vless://40b9e55d-7894-4a8e-b4dc-64819ddd6229@ali.055500.xyz:443?encryption=none&security=tls&sni=rnp.wctm.eu.org&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&type=ws&host=rnp.wctm.eu.org&path=%2Fproxyip#Racknerd-USA
 vless://aa3e44ea-24db-4539-9387-c1488615e652@156.238.251.95:59941?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.iij.ad.jp&fp=firefox&pbk=cGnAzSnCWRhPjhPOrsz1rdm93mHdDHLYmXRPNNojAAk&type=tcp&headerType=none#US-%E8%83%A1%E8%92%82%E4%BA%91
 hysteria2://02af5ccb9bb66fe5@47.79.32.102:26002?sni=www.bing.com&alpn=h3&insecure=1#claw7-JP-hy2
+vless://aa3e44ea-24db-4539-9387-c1488615e652@156.238.251.95:59941?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.iij.ad.jp&fp=firefox&pbk=cGnAzSnCWRhPjhPOrsz1rdm93mHdDHLYmXRPNNojAAk&type=tcp&headerType=none#US-%E8%83%A1%E8%92%82%E4%BA%91
+vless://40b9e55d-7894-4a8e-b4dc-64819ddd6229@108.162.195.169:443?encryption=none&security=tls&sni=rnp.wctm.eu.org&fp=chrome&alpn=h3%2Ch2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=ws&host=rnp.wctm.eu.org&path=%2Fproxyip#Racknerd-USA
+vless://41965c4e-24d4-4581-8575-0ef2a653ca4f@35.212.176.209:53262?encryption=none&security=reality&sni=icloud.cdn-apple.com&fp=chrome&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&type=tcp&headerType=none#ZJGYSD-us
+hysteria2://557aef83-116e-4ebc-8e88-154252c4f036@34.124.183.174:18808?sni=www.bing.com&alpn=h3&insecure=1&allowInsecure=1#jgdong25-sg
 
 `
 
