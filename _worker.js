@@ -10,7 +10,7 @@ let SUBUpdateTime = 6; //自定义订阅更新时间，单位小时
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://2d127bab-0af4-4856-9a5e-bb9a61d0efdf@cf.877774.xyz:443?encryption=none&security=tls&sni=evaluate-departments-monkey-epinions.trycloudflare.com&insecure=0&allowInsecure=0&type=ws&host=evaluate-departments-monkey-epinions.trycloudflare.com&path=%2F2d127bab-0af4-4856-9a5e-bb9a61d0efdf-vless%3Fed%3D2560#%F0%9F%87%AD%F0%9F%87%B0%20.alice
+vless://8a81f635-5552-4d8c-8f6a-9c8d9376aec7@cf.877774.xyz:443?encryption=none&security=tls&sni=condition-window-better-location.trycloudflare.com&insecure=0&allowInsecure=0&type=ws&host=condition-window-better-location.trycloudflare.com&path=%2F8a81f635-5552-4d8c-8f6a-9c8d9376aec7-vless%3Fed%3D2560#%F0%9F%87%AD%F0%9F%87%B0%20.alice
 
 anytls://1d97d843-c978-4dbd-ae8d-99e4ae820c9e@64.81.114.126:41084?security=tls&sni=addons.mozilla.org&fp=firefox&insecure=1&allowInsecure=1&type=tcp#acck-tw-JP%E4%B8%AD%E8%BD%AC
 hysteria2://1d97d843-c978-4dbd-ae8d-99e4ae820c9e@45.192.193.50:8882?sni=addons.mozilla.org&alpn=h3&insecure=1&allowInsecure=1&mport=50000-51000&pinSHA256=B2BB3C128450E73EB6123C8B593A6C4148FAE318DEB102E00B20CB07B902D1A6#accktw-hy2
