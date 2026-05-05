@@ -11,9 +11,10 @@ let SUBUpdateTime = 6; //自定义订阅更新时间，单位小时
 //节点链接 + 订阅链接
 let MainData = `
 vless://53f32066-a77f-4c00-94ba-b49a472dfdb6@162.159.49.189:443?encryption=none&security=tls&sni=buildings-julian-border-living.trycloudflare.com&insecure=0&allowInsecure=0&type=ws&host=buildings-julian-border-living.trycloudflare.com&path=%2F53f32066-a77f-4c00-94ba-b49a472dfdb6-vless%3Fed%3D2560#%F0%9F%87%AD%F0%9F%87%B0%20.alice
-vless://cfce222b-bb23-4904-bb42-32a358f881cd@hdyjp.321700.xyz:41084?encryption=none&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=ws&path=%2F#acckvl-clone
 vless://cfce222b-bb23-4904-bb42-32a358f881cd@accktw.321700.xyz:15767?encryption=none&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=ws&path=%2F#acckvl
 hysteria2://f6f56414-694d-45af-8e65-a52d4a5394b3@accktw.321700.xyz:64557?sni=www.bing.com&alpn=h3&insecure=1&allowInsecure=1#accktwhy2
+vless://cfce222b-bb23-4904-bb42-32a358f881cd@64.81.114.103:25750?encryption=none&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=ws&path=%2F#acck-tw-JP%E4%B8%AD%E8%BD%AC
+
 vless://00a81285-47fb-40cf-fdef-a6af7cde2cf7@hdyjp.321700.xyz:58234?encryption=none&security=reality&sni=www.icloud.com&fp=chrome&pbk=qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY&type=tcp&headerType=none#JP-%E8%83%A1%E8%92%82%E4%BA%91-VL
 hysteria2://b01d5748-4397-46c0-a954-0ba110cd31d2@hdyjp.321700.xyz:26001?sni=www.bing.com&alpn=h3&insecure=1&allowInsecure=1#JP-%E8%83%A1%E8%92%82%E4%BA%91
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlJOLXVzLVZNIiwNCiAgImFkZCI6ICJybi4zMjE3MDAueHl6IiwNCiAgInBvcnQiOiAiMjE3NjAiLA0KICAiaWQiOiAiMzY3NDJiZDMtMzkxNi00YjdkLWMyMjEtZWEzODc1ZTNkMWQ0IiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJybi4zMjE3MDAueHl6IiwNCiAgInBhdGgiOiAiLyIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICJybi4zMjE3MDAueHl6IiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiIsDQogICJpbnNlY3VyZSI6ICIwIg0KfQ==
