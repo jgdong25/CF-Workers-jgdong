@@ -12,6 +12,8 @@ let SUBUpdateTime = 6; //自定义订阅更新时间，单位小时
 let MainData = `
 vless://cfce222b-bb23-4904-bb42-32a358f881cd@accktw.321700.xyz:15767?encryption=none&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=ws&path=%2F#acckvl
 hysteria2://f6f56414-694d-45af-8e65-a52d4a5394b3@accktw.321700.xyz:64557?sni=www.bing.com&alpn=h3&insecure=1&allowInsecure=1#accktwhy2
+vless://4b3fbfab-7063-4db9-b5e7-2f778bac0d73@cf.877774.xyz:443?encryption=none&security=tls&sni=joyce-brand-customized-cbs.trycloudflare.com&insecure=0&allowInsecure=0&type=ws&host=joyce-brand-customized-cbs.trycloudflare.com&path=%2F4b3fbfab-7063-4db9-b5e7-2f778bac0d73-vless%3Fed%3D2560#ACCKTW-%20%20vless-ws-tls-clone
+
 vless://9b5636fe-8989-4c54-bd69-0f651f2f7d27@47.238.224.188:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=learn.microsoft.com&fp=chrome&pbk=c9Vw8gjqHcjuoYSBNFrjYhpajg-RHuxe6wooSkF4uyA&sid=065e2985&type=tcp&headerType=none#localhost%20X-Reality
 
 vless://00a81285-47fb-40cf-fdef-a6af7cde2cf7@hdyjp.321700.xyz:58234?encryption=none&security=reality&sni=www.icloud.com&fp=chrome&pbk=qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY&type=tcp&headerType=none#JP-%E8%83%A1%E8%92%82%E4%BA%91-VL
