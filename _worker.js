@@ -11,7 +11,7 @@ let SUBUpdateTime = 6; //自定义订阅更新时间，单位小时
 //节点链接 + 订阅链接
 let MainData = `
 
-vless://4b3fbfab-7063-4db9-b5e7-2f778bac0d73@162.159.42.46:443?encryption=none&security=tls&sni=trailers-bills-claims-accessed.trycloudflare.com&insecure=0&allowInsecure=0&type=ws&host=trailers-bills-claims-accessed.trycloudflare.com&path=%2F4b3fbfab-7063-4db9-b5e7-2f778bac0d73-vless%3Fed%3D2560#ACCKTW-%20%20vless-ws-tls
+vless://cfce222b-bb23-4904-bb42-32a358f881cd@www.shopify.com:443?encryption=none&security=tls&sni=accktw.321700.xyz&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=ws&host=accktw.321700.xyz&path=%2F#acckvl-clone
 vless://cfce222b-bb23-4904-bb42-32a358f881cd@accktw.321700.xyz:15767?encryption=none&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=ws&path=%2F#acckvl
 hysteria2://f6f56414-694d-45af-8e65-a52d4a5394b3@accktw.321700.xyz:64557?sni=www.bing.com&insecure=1&allowInsecure=1#accktwhy2
 vless://9b5636fe-8989-4c54-bd69-0f651f2f7d27@47.238.224.188:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=learn.microsoft.com&fp=chrome&pbk=c9Vw8gjqHcjuoYSBNFrjYhpajg-RHuxe6wooSkF4uyA&sid=065e2985&type=tcp&headerType=none#localhost%20X-Reality
@@ -20,10 +20,9 @@ vless://11ad7730-13b4-48c6-d40a-810085d20e87@107.172.97.4:48029?encryption=none&
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlJOLXVzLVZNLWNsb25lIiwNCiAgImFkZCI6ICJjZi44Nzc3NzQueHl6IiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogIjM2NzQyYmQzLTM5MTYtNGI3ZC1jMjIxLWVhMzg3NWUzZDFkNCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAicm4uMzIxNzAwLnh5eiIsDQogICJwYXRoIjogIi8iLA0KICAidGxzIjogInRscyIsDQogICJzbmkiOiAicm4uMzIxNzAwLnh5eiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiLA0KICAiaW5zZWN1cmUiOiAiMCINCn0=
 vless://7bd180e8-1142-4387-93f5-03e8d750a896@www.shopify.com:443?encryption=none&security=tls&sni=wasmer.jgdong25.ggff.net&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=wasmer.jgdong25.ggff.net&path=%2F7bd180e8#SG-Hetzner_Online-clone
 vless://7bd180e8-1142-4387-93f5-03e8d750a896@cdns.doon.eu.org:443?encryption=none&security=tls&sni=wasmer.jgdong25.ggff.net&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=wasmer.jgdong25.ggff.net&path=%2F7bd180e8#SG-Hetzner_Online
-vless://4b3fbfab-7063-4db9-b5e7-2f778bac0d73@www.shopify.com:443?encryption=none&security=tls&sni=trailers-bills-claims-accessed.trycloudflare.com&insecure=0&allowInsecure=0&type=ws&host=trailers-bills-claims-accessed.trycloudflare.com&path=%2F4b3fbfab-7063-4db9-b5e7-2f778bac0d73-vless%3Fed%3D2560#ACCKTW-%20%20vless-ws-tls
-vless://4b3fbfab-7063-4db9-b5e7-2f778bac0d73@172.64.229.240:443?encryption=none&security=tls&sni=trailers-bills-claims-accessed.trycloudflare.com&insecure=0&allowInsecure=0&type=ws&host=trailers-bills-claims-accessed.trycloudflare.com&path=%2F4b3fbfab-7063-4db9-b5e7-2f778bac0d73-vless%3Fed%3D2560#ACCKTW-%20%20vless-ws-tls
-vless://4b3fbfab-7063-4db9-b5e7-2f778bac0d73@213.210.5.45:21685?encryption=none&security=tls&sni=trailers-bills-claims-accessed.trycloudflare.com&insecure=0&allowInsecure=0&type=ws&host=trailers-bills-claims-accessed.trycloudflare.com&path=%2F4b3fbfab-7063-4db9-b5e7-2f778bac0d73-vless%3Fed%3D2560#ACCKTW-%20%20vless-ws-tls
-vless://4b3fbfab-7063-4db9-b5e7-2f778bac0d73@198.41.208.133:443?encryption=none&security=tls&sni=trailers-bills-claims-accessed.trycloudflare.com&insecure=0&allowInsecure=0&type=ws&host=trailers-bills-claims-accessed.trycloudflare.com&path=%2F4b3fbfab-7063-4db9-b5e7-2f778bac0d73-vless%3Fed%3D2560#ACCKTW-%20%20vless-ws-tls
+vless://cfce222b-bb23-4904-bb42-32a358f881cd@172.64.229.240:443?encryption=none&security=tls&sni=accktw.321700.xyz&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=ws&path=%2F#acckvl-clone
+vless://cfce222b-bb23-4904-bb42-32a358f881cd@213.210.5.45:21685?encryption=none&security=tls&sni=accktw.321700.xyz&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=ws&host=accktw.321700.xyz&path=%2F#acckvl-clone
+vless://cfce222b-bb23-4904-bb42-32a358f881cd@162.159.42.46:443?encryption=none&security=tls&sni=accktw.321700.xyz&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=ws&host=accktw.321700.xyz&path=%2F#acckvl-clone
 
 `
 
