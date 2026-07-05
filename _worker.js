@@ -20,7 +20,6 @@ vless://7bd180e8-1142-4387-93f5-03e8d750a896@cdns.doon.eu.org:443?encryption=non
 vless://cfce222b-bb23-4904-bb42-32a358f881cd@www.shopify.com:443?encryption=none&security=tls&sni=accktw.321700.xyz&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=ws&host=accktw.321700.xyz&path=%2F#acckvl-clone
 vless://cfce222b-bb23-4904-bb42-32a358f881cd@accktw.321700.xyz:15767?encryption=none&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=ws&path=%2F#acckvl
 hysteria2://f6f56414-694d-45af-8e65-a52d4a5394b3@accktw.321700.xyz:64557?sni=www.bing.com&insecure=1&allowInsecure=1#accktwhy2
-vless://cfce222b-bb23-4904-bb42-32a358f881cd@172.64.229.240:443?encryption=none&security=tls&sni=accktw.321700.xyz&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=ws&path=%2F#acckvl-clone
 vless://cfce222b-bb23-4904-bb42-32a358f881cd@213.210.5.45:21685?encryption=none&security=tls&sni=accktw.321700.xyz&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=ws&host=accktw.321700.xyz&path=%2F#acckvl-clone
 vless://cfce222b-bb23-4904-bb42-32a358f881cd@34.80.123.130:2087?encryption=none&security=tls&sni=accktw.321700.xyz&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=ws&host=accktw.321700.xyz&path=%2F#acckvl-clone-clone
 vless://cfce222b-bb23-4904-bb42-32a358f881cd@172.64.52.10:443?encryption=none&security=tls&sni=accktw.321700.xyz&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=ws&host=accktw.321700.xyz&path=%2F#acckvl
