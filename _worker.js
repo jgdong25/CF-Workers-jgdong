@@ -31,9 +31,6 @@ hysteria2://4d8b8ae0-ae29-4c4b-a660-9ca1005dbff2@2.27.174.240:62576?sni=www.bing
 vless://1c938a70-bab0-479d-be3d-f566f7c0024b@34.80.123.130:2087?encryption=none&security=tls&sni=trends-mandatory-cups-mortgages.trycloudflare.com&insecure=0&allowInsecure=0&type=ws&host=trends-mandatory-cups-mortgages.trycloudflare.com&path=%2F1c938a70-bab0-479d-be3d-f566f7c0024b-vless%3Fed%3D2560#%F0%9F%87%B9%F0%9F%87%BC%20TWL1-vless-ws-tls
 vless://995644d1-063b-40fa-b927-77b53b4592fc@178.239.117.130:55331?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.nazhumi.com&fp=chrome&pbk=0900ERxcsHv_1om0RqYn_iCSGKd-xjaYeTcMhBNUW2k&sid=4c4a021a8b89d70b&type=tcp&headerType=none#JP-Dromatics_Systems
 
-vless://43cc3005-3ee1-48f2-c110-91254f72fffa@45.143.131.157:25606?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&type=tcp&headerType=none#%E7%8B%AC%E8%A7%92%E9%B2%B8%E4%BA%91-JP
-hysteria2://4eae27e4-d9e5-44c4-8a01-a942b0ab5d1a@45.143.131.157:4150?sni=www.bing.com&insecure=1&allowInsecure=1#%E7%8B%AC%E8%A7%92%E9%B2%B8%E4%BA%91-JP
-vless://971e66c8-4a75-40fa-bd9b-fcb7b30ef86a@45.143.131.157:43288?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=TDk7XdodzPHeOvNQLElzS4-fRmKZXesXcwzJli-BklY&sid=19e8&spx=%2F&type=tcp&headerType=none#acck-jp%E4%B8%AD%E8%BD%AC
 
 `
 
