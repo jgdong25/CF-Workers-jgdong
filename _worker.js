@@ -28,6 +28,7 @@ vless://7bd180e8-1142-4387-93f5-03e8d750a896@www.shopify.com:443?encryption=none
 vless://7bd180e8-1142-4387-93f5-03e8d750a896@cdns.doon.eu.org:443?encryption=none&security=tls&sni=wasmer.jgdong25.ggff.net&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=wasmer.jgdong25.ggff.net&path=%2F7bd180e8#SG-Hetzner_Online
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlNHLUFsaWJhYmEiLA0KICAiYWRkIjogInNhYXMuc2luLmZhbiIsDQogICJwb3J0IjogIjQ0MyIsDQogICJpZCI6ICI0MGJiNzhlYS0xODIyLTQ4M2ItYWMwYy1mMDZhNGIzOWRjYjMiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogIm5vbmUiLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIm5ldGFpa3lvMDAxLnpmby5kcGRucy5vcmciLA0KICAicGF0aCI6ICIvdm1lc3MtYXJnbz9lZD0yNTYwIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIm5ldGFpa3lvMDAxLnpmby5kcGRucy5vcmciLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiY2hyb21lIiwNCiAgImluc2VjdXJlIjogIjAiLA0KICAidmNuIjogIiIsDQogICJwY3MiOiAiIg0KfQ==
 anytls://b32d38f2-4acc-4c57-a2ed-e6ada1222489@38.175.192.79:22223?security=tls&sni=www.amd.com&insecure=1&allowInsecure=1&type=tcp&headerType=none#%E9%A6%99%E6%B8%AFZGO-AnyTLS
+vless://6de4db6a-203f-43da-91a5-92015a1ec143@189.24.81.243:55331?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.nazhumi.com&fp=chrome&pbk=sdNk2iqobw7zBsvWYeyIxY7YpAh3ZZcBoqfeuetA_xE&sid=5b7a8e3556a3c447&type=tcp&headerType=none#DE-NetLab_Global
 
 `
 
