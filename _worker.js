@@ -29,6 +29,7 @@ tuic://f28c5d29-d3c4-4f66-95bc-f1eed8071897%3AbspNm4uCo5S4qulWz9sm@103.27.186.17
 vless://dfdf2cf7-da73-45a5-990e-3053d947cfb1@18.179.23.188:20214?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.apple.com&fp=chrome&pbk=RgdbFmbLm9deC3hMNrF-mZkmofrf2C24FZ85kgzT4Tg&sid=9698c3dcde430818&type=tcp&headerType=none#aws-jp
 vless://484fcea1-c799-45f4-9a9a-952e581abfa7@212.17.238.140:46249?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.apple.com&fp=chrome&pbk=f-47MShFcV7DokEngj0ej5zBi-vQpPUz1LrvX84K_SQ&sid=a3fc5345191a92bc&type=tcp&headerType=none#mihomo-user1
 vless://3d6d0c85-9296-4b54-9db0-2a1454f56607@142.91.106.45:8880?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.nazhumi.com&fp=chrome&pbk=cej7pYQVmEdFfznvVJzAOPnr8NlSTfr0V7eBqlwQYgw&sid=09ea482289d35791&type=tcp&headerType=none#JP-Leaseweb_Japan
+vless://fb3c7837-8286-432e-b1e7-b0dd811ff479@103.27.186.170:58964?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.apple.com&fp=chrome&pbk=8mVHMSctVvKP7mSL78EgUmK7YXHXi-vMd3RwCAPmpEE&sid=5bcdd78243c9fb44&type=tcp&headerType=none#mihomo-user1
 
 
 `
