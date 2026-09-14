@@ -32,6 +32,7 @@ vless://3d6d0c85-9296-4b54-9db0-2a1454f56607@142.91.106.45:8880?encryption=none&
 vless://fb3c7837-8286-432e-b1e7-b0dd811ff479@103.27.186.170:58964?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.apple.com&fp=chrome&pbk=8mVHMSctVvKP7mSL78EgUmK7YXHXi-vMd3RwCAPmpEE&sid=5bcdd78243c9fb44&type=tcp&headerType=none#mihomo-user1
 vless://7dc28281-8ef8-44d8-8c62-19e4fb8e5962@38.147.165.185:55331?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.nazhumi.com&fp=chrome&pbk=WXPypY2gtn2z0nkSwBxxVtH2VGCvvV84l4JDiTxDGXs&sid=f2d2ec22622e3415&type=tcp&headerType=none#%E8%9B%8B%E4%BA%91-%E9%A6%99%E6%B8%AF%2FBGP%E7%9B%B4%E8%BF%9E-A%E5%8C%BA
 
+https://xn--9kqs1lo79d.cc/api/v1/chuixue?token=3caec4e567a99d5bcbb853d2de4870c1
 
 `
 
