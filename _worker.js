@@ -26,6 +26,7 @@ vless://7bd180e8-1142-4387-93f5-03e8d750a896@cdns.doon.eu.org:443?encryption=non
 vless://dfdf2cf7-da73-45a5-990e-3053d947cfb1@18.179.23.188:20214?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.apple.com&fp=chrome&pbk=RgdbFmbLm9deC3hMNrF-mZkmofrf2C24FZ85kgzT4Tg&sid=9698c3dcde430818&type=tcp&headerType=none#aws-jp
 tuic://CE1B617C-9715-4C05-9546-D0B0E79B08A2%3Ace1b617c-9715-4c05-9546-d0b0e79b08a2@23.95.32.92:39807?sni=www.bing.com&alpn=h3&allow_insecure=1&congestion_control=cubic#rn-dc3-tuic
 anytls://0e63b628-2b1b-47f9-b42a-8b3445b0117e@185.85.242.170:21266?insecure=1&security=tls&type=tcp&headerType=none#anytls-uk-mass
+vless://6d4f6187-cd77-4eb7-80b1-57f77f6e167f@chuixuecf.blowingsnowclouds.cc:443?encryption=none&security=tls&sni=acck88.321700.xyz&fp=chrome&type=ws&path=%2F#acck88-clone
 
 
 `
