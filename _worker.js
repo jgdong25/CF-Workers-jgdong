@@ -11,7 +11,7 @@ let SUBUpdateTime = 6; //自定义订阅更新时间，单位小时
 //节点链接 + 订阅链接
 let MainData = `
 https://xn--9kqs1lo79d.cc/api/v1/chuixue?token=3caec4e567a99d5bcbb853d2de4870c1
-https://sub.moeu.de/share/sub/dabo2yyds?token=thank2you
+//https://sub.moeu.de/share/sub/dabo2yyds?token=thank2you
 hysteria2://5a356497-0e54-4de7-9168-a07d0c5828fc@[2a14:67c4:11::1cb]:8882?sni=addons.mozilla.org#%F0%9F%87%AD%F0%9F%87%B0%20HK-alice
 ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206cHdldmQvT1huSHVUeGhJL2Y2RVZ1dz09@[2a14:67c4:11::1cb]:8885?#%F0%9F%87%AD%F0%9F%87%B0%20HK-alice
 tuic://5a356497-0e54-4de7-9168-a07d0c5828fc%3A5a356497-0e54-4de7-9168-a07d0c5828fc@[2a14:67c4:11::1cb]:8883?sni=addons.mozilla.org&alpn=h3&congestion_control=bbr#%F0%9F%87%AD%F0%9F%87%B0%20HK-alice
