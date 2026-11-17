@@ -11,13 +11,16 @@ let SUBUpdateTime = 6; //自定义订阅更新时间，单位小时
 //节点链接 + 订阅链接
 let MainData = `
 https://xn--9kqs1lo79d.cc/api/v1/chuixue?token=3caec4e567a99d5bcbb853d2de4870c1
-vless://e1339328-71f4-464e-b90b-8f566e393596@[2a14:67c4:11::1cb]:4552?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.iij.ad.jp&fp=firefox&pbk=zd1yD8O9cbTT5qNdNSd6mcp9-Db_iz4P9b3whkOV10s&type=tcp&headerType=none#HK-alice
-hysteria2://e1339328-71f4-464e-b90b-8f566e393596@[2a14:67c4:11::1cb]:4555?sni=www.bing.com&insecure=1&pinSHA256=6A%3A16%3A90%3ABC%3ADE%3AD4%3A74%3A6A%3A63%3A14%3A50%3ABC%3A48%3A2F%3AF0%3A9E%3AEE%3A2B%3A90%3A64%3A02%3A31%3A30%3AFB%3A2F%3AED%3A14%3A45%3AE2%3A25%3A0E%3A2A#HK-alice
-vless://6d4f6187-cd77-4eb7-80b1-57f77f6e167f@acck88.321700.xyz:36960?encryption=none&security=tls&sni=acck88.321700.xyz&fp=chrome&type=ws&path=%2F#acck88
-vless://6d4f6187-cd77-4eb7-80b1-57f77f6e167f@www.udacity.com:2087?encryption=none&security=tls&sni=acck88.321700.xyz&fp=chrome&type=ws&path=%2F#acck88-clone
-vless://6d4f6187-cd77-4eb7-80b1-57f77f6e167f@[2a06:98c1:310b:24af:d213:9f0:6728:175]:443?encryption=none&security=tls&sni=acck88.321700.xyz&fp=chrome&type=ws&path=%2F#acck88-clone
-hysteria2://a1511b7b-2baa-4850-bee1-740bc07e369c@2.27.174.240:27362?sni=www.bing.com&insecure=1#TW-LSHIY-acck88
+https://sub.moeu.de/share/sub/dabo2yyds?token=thank2you
+hysteria2://5a356497-0e54-4de7-9168-a07d0c5828fc@[2a14:67c4:11::1cb]:8882?sni=addons.mozilla.org#%F0%9F%87%AD%F0%9F%87%B0%20HK-alice
+ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206cHdldmQvT1huSHVUeGhJL2Y2RVZ1dz09@[2a14:67c4:11::1cb]:8885?#%F0%9F%87%AD%F0%9F%87%B0%20HK-alice
+tuic://5a356497-0e54-4de7-9168-a07d0c5828fc%3A5a356497-0e54-4de7-9168-a07d0c5828fc@[2a14:67c4:11::1cb]:8883?sni=addons.mozilla.org&alpn=h3&congestion_control=bbr#%F0%9F%87%AD%F0%9F%87%B0%20HK-alice
+
+hysteria2://b6679aa0-53ea-416f-a826-762bb234826a@2.27.174.240:56036?sni=www.bing.com&insecure=1&pinSHA256=40318b6e2914cb4293b57b2d936b134caf3c67e211c030483bc0eb3e6db363ae#hy2-TWL1-ACCK
+tuic://b6679aa0-53ea-416f-a826-762bb234826a%3Ab6679aa0-53ea-416f-a826-762bb234826a@2.27.174.240:20476?sni=www.bing.com&alpn=h3&allow_insecure=1&congestion_control=bbr#tu5-TWL1-ACCK
+anytls://b6679aa0-53ea-416f-a826-762bb234826a@2.27.174.240:11535?insecure=1&security=tls&sni=www.bing.com&type=tcp&headerType=none#anytls-TWL1-ACCK
 vless://391a2896-2806-4245-8b39-9b95164b2e9c@107.172.97.4:35259?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=chrome&pbk=vkeXZcIe2DuM5O7VOPngVGtr4aMZZGkd4sWNgdSf5mc&sid=40ae6d58&type=tcp&headerType=none#vl-reality-racknerd-c57f1e9
+
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtLXdzLXJhY2tuZXJkLWM1N2YxZTkiLA0KICAiYWRkIjogIjEwNy4xNzIuOTcuNCIsDQogICJwb3J0IjogIjIwOTUiLA0KICAiaWQiOiAiMzkxYTI4OTYtMjgwNi00MjQ1LThiMzktOWI5NTE2NGIyZTljIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJ3d3cuYmluZy5jb20iLA0KICAicGF0aCI6ICIzOTFhMjg5Ni0yODA2LTQyNDUtOGIzOS05Yjk1MTY0YjJlOWMtdm0iLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiIsDQogICJpbnNlY3VyZSI6ICIwIiwNCiAgInZjbiI6ICIiLA0KICAicGNzIjogIiINCn0=
 anytls://391a2896-2806-4245-8b39-9b95164b2e9c@107.172.97.4:30728?insecure=1&security=tls&sni=www.bing.com&type=tcp&headerType=none#anytls-racknerd-c57f1e9
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlJOLXVzLVZNIiwNCiAgImFkZCI6ICIxMDcuMTcyLjk3LjQiLA0KICAicG9ydCI6ICIyMTc2MCIsDQogICJpZCI6ICIzNjc0MmJkMy0zOTE2LTRiN2QtYzIyMS1lYTM4NzVlM2QxZDQiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogInJuLjMyMTcwMC54eXoiLA0KICAicGF0aCI6ICIvIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogInJuLjMyMTcwMC54eXoiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIiwNCiAgImluc2VjdXJlIjogIjAiLA0KICAidmNuIjogIiIsDQogICJwY3MiOiAiIg0KfQ==
