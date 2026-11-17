@@ -12,27 +12,19 @@ let SUBUpdateTime = 6; //自定义订阅更新时间，单位小时
 let MainData = `
 https://xn--9kqs1lo79d.cc/api/v1/chuixue?token=3caec4e567a99d5bcbb853d2de4870c1
 //https://sub.moeu.de/share/sub/dabo2yyds?token=thank2you
-hysteria2://5a356497-0e54-4de7-9168-a07d0c5828fc@[2a14:67c4:11::1cb]:8882?sni=addons.mozilla.org#%F0%9F%87%AD%F0%9F%87%B0%20HK-alice
-ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206cHdldmQvT1huSHVUeGhJL2Y2RVZ1dz09@[2a14:67c4:11::1cb]:8885?#%F0%9F%87%AD%F0%9F%87%B0%20HK-alice
-tuic://5a356497-0e54-4de7-9168-a07d0c5828fc%3A5a356497-0e54-4de7-9168-a07d0c5828fc@[2a14:67c4:11::1cb]:8883?sni=addons.mozilla.org&alpn=h3&congestion_control=bbr#%F0%9F%87%AD%F0%9F%87%B0%20HK-alice
-
-hysteria2://b6679aa0-53ea-416f-a826-762bb234826a@2.27.174.240:56036?sni=www.bing.com&insecure=1&pinSHA256=40318b6e2914cb4293b57b2d936b134caf3c67e211c030483bc0eb3e6db363ae#hy2-TWL1-ACCK
-tuic://b6679aa0-53ea-416f-a826-762bb234826a%3Ab6679aa0-53ea-416f-a826-762bb234826a@2.27.174.240:20476?sni=www.bing.com&alpn=h3&allow_insecure=1&congestion_control=bbr#tu5-TWL1-ACCK
-anytls://b6679aa0-53ea-416f-a826-762bb234826a@2.27.174.240:11535?insecure=1&security=tls&sni=www.bing.com&type=tcp&headerType=none#anytls-TWL1-ACCK
-vless://391a2896-2806-4245-8b39-9b95164b2e9c@107.172.97.4:35259?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=chrome&pbk=vkeXZcIe2DuM5O7VOPngVGtr4aMZZGkd4sWNgdSf5mc&sid=40ae6d58&type=tcp&headerType=none#vl-reality-racknerd-c57f1e9
-
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtLXdzLXJhY2tuZXJkLWM1N2YxZTkiLA0KICAiYWRkIjogIjEwNy4xNzIuOTcuNCIsDQogICJwb3J0IjogIjIwOTUiLA0KICAiaWQiOiAiMzkxYTI4OTYtMjgwNi00MjQ1LThiMzktOWI5NTE2NGIyZTljIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJ3d3cuYmluZy5jb20iLA0KICAicGF0aCI6ICIzOTFhMjg5Ni0yODA2LTQyNDUtOGIzOS05Yjk1MTY0YjJlOWMtdm0iLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiIsDQogICJpbnNlY3VyZSI6ICIwIiwNCiAgInZjbiI6ICIiLA0KICAicGNzIjogIiINCn0=
-anytls://391a2896-2806-4245-8b39-9b95164b2e9c@107.172.97.4:30728?insecure=1&security=tls&sni=www.bing.com&type=tcp&headerType=none#anytls-racknerd-c57f1e9
-//vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlJOLXVzLVZNIiwNCiAgImFkZCI6ICIxMDcuMTcyLjk3LjQiLA0KICAicG9ydCI6ICIyMTc2MCIsDQogICJpZCI6ICIzNjc0MmJkMy0zOTE2LTRiN2QtYzIyMS1lYTM4NzVlM2QxZDQiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogInJuLjMyMTcwMC54eXoiLA0KICAicGF0aCI6ICIvIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogInJuLjMyMTcwMC54eXoiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIiwNCiAgImluc2VjdXJlIjogIjAiLA0KICAidmNuIjogIiIsDQogICJwY3MiOiAiIg0KfQ==
-vless://7bd180e8-1142-4387-93f5-03e8d750a896@www.shopify.com:443?encryption=none&security=tls&sni=wasmer.jgdong25.ggff.net&fp=chrome&type=ws&host=wasmer.jgdong25.ggff.net&path=%2F7bd180e8#SG-Hetzner_Online-clone
-
-//vless://7bd180e8-1142-4387-93f5-03e8d750a896@chuixuecf.blowingsnowclouds.cc:443?encryption=none&security=tls&sni=wasmer.jgdong25.ggff.net&fp=chrome&type=ws&host=wasmer.jgdong25.ggff.net&path=%2F7bd180e8#SG-Hetzner_Online
-vless://3d6d0c85-9296-4b54-9db0-2a1454f56607@142.91.106.45:8880?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.nazhumi.com&fp=chrome&pbk=cej7pYQVmEdFfznvVJzAOPnr8NlSTfr0V7eBqlwQYgw&sid=09ea482289d35791&type=tcp&headerType=none#JP-Leaseweb_Japan
-
-//vless://dfdf2cf7-da73-45a5-990e-3053d947cfb1@18.179.23.188:20214?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.apple.com&fp=chrome&pbk=RgdbFmbLm9deC3hMNrF-mZkmofrf2C24FZ85kgzT4Tg&sid=9698c3dcde430818&type=tcp&headerType=none#aws-jp
-tuic://CE1B617C-9715-4C05-9546-D0B0E79B08A2%3Ace1b617c-9715-4c05-9546-d0b0e79b08a2@23.95.32.92:39807?sni=www.bing.com&alpn=h3&allow_insecure=1&congestion_control=cubic#rn-dc3-tuic
-anytls://0e63b628-2b1b-47f9-b42a-8b3445b0117e@185.85.242.170:21266?insecure=1&security=tls&type=tcp&headerType=none#anytls-uk-mass
-//vless://6d4f6187-cd77-4eb7-80b1-57f77f6e167f@chuixuecf.blowingsnowclouds.cc:443?encryption=none&security=tls&sni=acck88.321700.xyz&fp=chrome&type=ws&path=%2F#acck88-clone
+hysteria2://5a356497-0e54-4de7-9168-a07d0c5828fc@[2a14:67c4:11::1cb]:8882?sni=addons.mozilla.org#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF-alice
+ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206cHdldmQvT1huSHVUeGhJL2Y2RVZ1dz09@[2a14:67c4:11::1cb]:8885?#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF-alice
+tuic://5a356497-0e54-4de7-9168-a07d0c5828fc%3A5a356497-0e54-4de7-9168-a07d0c5828fc@[2a14:67c4:11::1cb]:8883?sni=addons.mozilla.org&alpn=h3&congestion_control=bbr#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF-alice
+hysteria2://b6679aa0-53ea-416f-a826-762bb234826a@2.27.174.240:56036?sni=www.bing.com&insecure=1&pinSHA256=40318b6e2914cb4293b57b2d936b134caf3c67e211c030483bc0eb3e6db363ae#hy2-%E5%8F%B0%E6%B9%BE-ACCK
+tuic://b6679aa0-53ea-416f-a826-762bb234826a%3Ab6679aa0-53ea-416f-a826-762bb234826a@2.27.174.240:20476?sni=www.bing.com&alpn=h3&allow_insecure=1&congestion_control=bbr#tu5-%E5%8F%B0%E6%B9%BE-ACCK
+anytls://b6679aa0-53ea-416f-a826-762bb234826a@2.27.174.240:11535?insecure=1&security=tls&sni=www.bing.com&type=tcp&headerType=none#anytls-%E5%8F%B0%E6%B9%BE-ACCK
+vless://391a2896-2806-4245-8b39-9b95164b2e9c@107.172.97.4:35259?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=chrome&pbk=vkeXZcIe2DuM5O7VOPngVGtr4aMZZGkd4sWNgdSf5mc&sid=40ae6d58&type=tcp&headerType=none#vl-reality-racknerd-%E7%BE%8E%E5%9B%BD
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtLXdzLXJhY2tuZXJkLee+juWbvSIsDQogICJhZGQiOiAiMTA3LjE3Mi45Ny40IiwNCiAgInBvcnQiOiAiMjA5NSIsDQogICJpZCI6ICIzOTFhMjg5Ni0yODA2LTQyNDUtOGIzOS05Yjk1MTY0YjJlOWMiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogInd3dy5iaW5nLmNvbSIsDQogICJwYXRoIjogIjM5MWEyODk2LTI4MDYtNDI0NS04YjM5LTliOTUxNjRiMmU5Yy12bSIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIiwNCiAgImluc2VjdXJlIjogIjAiLA0KICAidmNuIjogIiIsDQogICJwY3MiOiAiIg0KfQ==
+anytls://391a2896-2806-4245-8b39-9b95164b2e9c@107.172.97.4:30728?insecure=1&security=tls&sni=www.bing.com&type=tcp&headerType=none#anytls-racknerd-%E7%BE%8E%E5%9B%BD
+vless://7bd180e8-1142-4387-93f5-03e8d750a896@www.shopify.com:443?encryption=none&security=tls&sni=wasmer.jgdong25.ggff.net&fp=chrome&type=ws&host=wasmer.jgdong25.ggff.net&path=%2F7bd180e8#%E6%96%B0%E5%8A%A0%E5%9D%A1-Hetzner
+vless://3d6d0c85-9296-4b54-9db0-2a1454f56607@142.91.106.45:8880?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.nazhumi.com&fp=chrome&pbk=cej7pYQVmEdFfznvVJzAOPnr8NlSTfr0V7eBqlwQYgw&sid=09ea482289d35791&type=tcp&headerType=none#JP-Leaseweb_%E6%97%A5%E6%9C%AC
+tuic://CE1B617C-9715-4C05-9546-D0B0E79B08A2%3Ace1b617c-9715-4c05-9546-d0b0e79b08a2@23.95.32.92:39807?sni=www.bing.com&alpn=h3&allow_insecure=1&congestion_control=cubic#rn-dc3-%E7%BE%8E%E5%9B%BD
+anytls://0e63b628-2b1b-47f9-b42a-8b3445b0117e@185.85.242.170:21266?insecure=1&security=tls&type=tcp&headerType=none#anytls-uk-%E5%BE%B7%E5%9B%BD
 
 
 `
