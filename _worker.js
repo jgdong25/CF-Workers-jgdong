@@ -12,9 +12,11 @@ let SUBUpdateTime = 6; //自定义订阅更新时间，单位小时
 let MainData = `
 https://xn--9kqs1lo79d.cc/api/v1/chuixue?token=3caec4e567a99d5bcbb853d2de4870c1
 //https://sub.moeu.de/share/sub/dabo2yyds?token=thank2you
-hysteria2://5a356497-0e54-4de7-9168-a07d0c5828fc@[2a14:67c4:11::1cb]:8882?sni=addons.mozilla.org#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF-alice
-ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206cHdldmQvT1huSHVUeGhJL2Y2RVZ1dz09@[2a14:67c4:11::1cb]:8885?#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF-alice
-tuic://5a356497-0e54-4de7-9168-a07d0c5828fc%3A5a356497-0e54-4de7-9168-a07d0c5828fc@[2a14:67c4:11::1cb]:8883?sni=addons.mozilla.org&alpn=h3&congestion_control=bbr#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF-alice
+hysteria2://5a356497-0e54-4de7-9168-a07d0c5828fc@[2a14:67c4:11::1cb]:8882?sni=addons.mozilla.org#%F0%9F%87%AD%F0%9F%87%B0%20HK-alice
+ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206cHdldmQvT1huSHVUeGhJL2Y2RVZ1dz09@[2a14:67c4:11::1cb]:8885?#%F0%9F%87%AD%F0%9F%87%B0%20HK-alice
+vless://5a356497-0e54-4de7-9168-a07d0c5828fc@[2a14:67c4:11::1cb]:8890?encryption=none&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=Og2Vm65alg0qcznOMA9IaYacXNhpsL02kExG5_EeLD8&type=grpc&authority=&serviceName=grpc&mode=gun#%F0%9F%87%AD%F0%9F%87%B0%20HK-alice
+tuic://5a356497-0e54-4de7-9168-a07d0c5828fc%3A5a356497-0e54-4de7-9168-a07d0c5828fc@[2a14:67c4:11::1cb]:8883?sni=addons.mozilla.org&alpn=h3&congestion_control=bbr#%F0%9F%87%AD%F0%9F%87%B0%20HK-alice
+
 hysteria2://b6679aa0-53ea-416f-a826-762bb234826a@2.27.174.240:56036?sni=www.bing.com&insecure=1&pinSHA256=40318b6e2914cb4293b57b2d936b134caf3c67e211c030483bc0eb3e6db363ae#hy2-%E5%8F%B0%E6%B9%BE-ACCK
 tuic://b6679aa0-53ea-416f-a826-762bb234826a%3Ab6679aa0-53ea-416f-a826-762bb234826a@2.27.174.240:20476?sni=www.bing.com&alpn=h3&allow_insecure=1&congestion_control=bbr#tu5-%E5%8F%B0%E6%B9%BE-ACCK
 anytls://b6679aa0-53ea-416f-a826-762bb234826a@2.27.174.240:11535?insecure=1&security=tls&sni=www.bing.com&type=tcp&headerType=none#anytls-%E5%8F%B0%E6%B9%BE-ACCK
